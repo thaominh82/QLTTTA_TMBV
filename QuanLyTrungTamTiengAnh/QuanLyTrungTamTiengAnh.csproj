@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,12 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAL\Classess\DangKyHocDAL.cs" />
-    <Compile Include="DAL\Classess\DatabaseConnection.cs" />
-    <Compile Include="DAL\Classess\GiaoVienDAL.cs" />
-    <Compile Include="DAL\Classess\HocVienDAL.cs" />
-    <Compile Include="DAL\Classess\KhoaHocDAL.cs" />
-    <Compile Include="DAL\Classess\TaiKhoanDAL.cs" />
+    <Compile Include="DAL\Classes\DangKyHocDAL.cs" />
+    <Compile Include="DAL\Classes\DatabaseConnection.cs" />
+    <Compile Include="DAL\Classes\GiaoVienDAL.cs" />
+    <Compile Include="DAL\Classes\HocVienDAL.cs" />
+    <Compile Include="DAL\Classes\KhoaHocDAL.cs" />
+    <Compile Include="DAL\Classes\TaiKhoanDAL.cs" />
     <Compile Include="DAL\Interfaces\IDangKyHocDAL.cs" />
     <Compile Include="DAL\Interfaces\IGiaoVienDAL.cs" />
     <Compile Include="DAL\Interfaces\IHocVienDAL.cs" />
@@ -62,11 +63,11 @@
     <Compile Include="Entity\HocVien.cs" />
     <Compile Include="Entity\KhoaHoc.cs" />
     <Compile Include="Entity\TaiKhoan.cs" />
-    <Compile Include="Forms\FrmDangKy.cs">
+    <Compile Include="Forms\FrmLopHoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FrmDangKy.Designer.cs">
-      <DependentUpon>FrmDangKy.cs</DependentUpon>
+    <Compile Include="Forms\FrmLopHoc.Designer.cs">
+      <DependentUpon>FrmLopHoc.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmDangKyHoc.cs">
       <SubType>Form</SubType>
@@ -112,6 +113,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FrmDangNhap.resx">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

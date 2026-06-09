@@ -1,0 +1,9 @@
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.csproj.AssemblyReference.cache
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Properties.Resources.resources
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.csproj.GenerateResource.cache
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.csproj.CoreCompileInputs.cache
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.exe.config
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.exe
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.pdb
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.exe
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.pdb

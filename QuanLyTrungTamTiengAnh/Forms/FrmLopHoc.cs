@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyTrungTamTiengAnh.Forms
 {
-    public partial class FrmDangKy : Form
+    public partial class FrmLopHoc : Form
     {
-        public FrmDangKy()
+        public FrmLopHoc()
         {
             InitializeComponent();
         }

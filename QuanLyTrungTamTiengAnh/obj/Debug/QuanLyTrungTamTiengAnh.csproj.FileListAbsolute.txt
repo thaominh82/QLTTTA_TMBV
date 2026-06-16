@@ -7,3 +7,17 @@ C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLy
 C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.pdb
 C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.exe
 C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.pdb
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.csproj.AssemblyReference.cache
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Forms.FrmDangNhap.resources
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Forms.FrmKhoaHoc.resources
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Forms.FrmLopHoc.resources
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Properties.Resources.resources
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.csproj.GenerateResource.cache
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.csproj.CoreCompileInputs.cache
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.exe
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.pdb
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.exe.config
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.exe
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.pdb
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\Guna.UI2.dll
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTr.6D5C7CA7.Up2Date

@@ -16,5 +16,40 @@ namespace QuanLyTrungTamTiengAnh.Forms
         {
             InitializeComponent();
         }
+
+        private void FrmKhoaHoc_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvKhoaHoc_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void grpThongTin_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1btnTimKiem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLamMoi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

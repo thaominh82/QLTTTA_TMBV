@@ -51,5 +51,35 @@ namespace QuanLyTrungTamTiengAnh.Forms
         {
 
         }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void grpThongTin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

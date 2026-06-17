@@ -16,5 +16,15 @@ namespace QuanLyTrungTamTiengAnh.Forms
         {
             InitializeComponent();
         }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void grpThongTin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

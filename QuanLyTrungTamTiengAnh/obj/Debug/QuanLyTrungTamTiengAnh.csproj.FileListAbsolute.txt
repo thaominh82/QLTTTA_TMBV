@@ -21,3 +21,5 @@ D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.exe
 D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.pdb
 D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\Guna.UI2.dll
 D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTr.6D5C7CA7.Up2Date
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Forms.FrmTaiKhoan.resources
+D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Forms.FrmDangKyHoc.resources

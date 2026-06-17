@@ -43,9 +43,10 @@
             this.lblDangNhap.AutoSize = true;
             this.lblDangNhap.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDangNhap.ForeColor = System.Drawing.Color.LightPink;
-            this.lblDangNhap.Location = new System.Drawing.Point(405, 50);
+            this.lblDangNhap.Location = new System.Drawing.Point(540, 62);
+            this.lblDangNhap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDangNhap.Name = "lblDangNhap";
-            this.lblDangNhap.Size = new System.Drawing.Size(239, 48);
+            this.lblDangNhap.Size = new System.Drawing.Size(320, 65);
             this.lblDangNhap.TabIndex = 1;
             this.lblDangNhap.Text = "ĐĂNG NHẬP";
             this.lblDangNhap.Click += new System.EventHandler(this.label1_Click_1);
@@ -55,18 +56,20 @@
             this.labQuanLy.AutoSize = true;
             this.labQuanLy.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labQuanLy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.labQuanLy.Location = new System.Drawing.Point(360, 118);
+            this.labQuanLy.Location = new System.Drawing.Point(480, 148);
+            this.labQuanLy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labQuanLy.Name = "labQuanLy";
-            this.labQuanLy.Size = new System.Drawing.Size(342, 29);
+            this.labQuanLy.Size = new System.Drawing.Size(462, 37);
             this.labQuanLy.TabIndex = 2;
             this.labQuanLy.Text = "Quản Lý Trung Tâm Tiếng Anh";
             // 
             // picLogo
             // 
             this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
-            this.picLogo.Location = new System.Drawing.Point(171, 166);
+            this.picLogo.Location = new System.Drawing.Point(228, 208);
+            this.picLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(691, 128);
+            this.picLogo.Size = new System.Drawing.Size(921, 160);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picLogo.TabIndex = 3;
             this.picLogo.TabStop = false;
@@ -84,12 +87,12 @@
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtUsername.IconLeft")));
-            this.txtUsername.Location = new System.Drawing.Point(377, 323);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtUsername.Location = new System.Drawing.Point(503, 404);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PlaceholderText = "Username";
             this.txtUsername.SelectedText = "";
-            this.txtUsername.Size = new System.Drawing.Size(286, 42);
+            this.txtUsername.Size = new System.Drawing.Size(381, 46);
             this.txtUsername.TabIndex = 4;
             this.txtUsername.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
@@ -107,13 +110,14 @@
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtPassword.IconLeft")));
             this.txtPassword.IconRight = ((System.Drawing.Image)(resources.GetObject("txtPassword.IconRight")));
-            this.txtPassword.Location = new System.Drawing.Point(365, 392);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtPassword.Location = new System.Drawing.Point(503, 486);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PlaceholderText = "Password";
             this.txtPassword.SelectedText = "";
-            this.txtPassword.Size = new System.Drawing.Size(286, 37);
+            this.txtPassword.Size = new System.Drawing.Size(381, 46);
             this.txtPassword.TabIndex = 5;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // btnDangNhap
             // 
@@ -125,19 +129,20 @@
             this.btnDangNhap.FillColor = System.Drawing.Color.Pink;
             this.btnDangNhap.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDangNhap.ForeColor = System.Drawing.Color.White;
-            this.btnDangNhap.Location = new System.Drawing.Point(424, 451);
+            this.btnDangNhap.Location = new System.Drawing.Point(599, 567);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(142, 52);
+            this.btnDangNhap.Size = new System.Drawing.Size(189, 65);
             this.btnDangNhap.TabIndex = 6;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // FrmDangNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
-            this.ClientSize = new System.Drawing.Size(1085, 572);
+            this.ClientSize = new System.Drawing.Size(1447, 951);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
@@ -145,6 +150,7 @@
             this.Controls.Add(this.labQuanLy);
             this.Controls.Add(this.lblDangNhap);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmDangNhap";
             this.Text = "Đăng nhập hệ thống";
             this.Load += new System.EventHandler(this.FrmDangNhap_Load);

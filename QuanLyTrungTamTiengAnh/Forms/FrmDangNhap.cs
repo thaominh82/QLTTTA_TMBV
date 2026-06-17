@@ -48,5 +48,40 @@ namespace QuanLyTrungTamTiengAnh.Forms
         {
 
         }
+
+        private void FrmDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDangNhap_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -859,7 +859,6 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.Name = "FrmLopHoc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản Lý Lớp Học";
-            this.Load += new System.EventHandler(this.FrmLopHoc_Load_1);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();

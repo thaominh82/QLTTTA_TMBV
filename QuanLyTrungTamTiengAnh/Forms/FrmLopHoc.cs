@@ -550,8 +550,8 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label15.Size = new System.Drawing.Size(79, 25);
             this.label15.TabIndex = 13;
             this.label15.Text = "Ghi chú";
-            // 
-            // label14
+            this.panelStatsContainer.Size = new System.Drawing.Size(1839, 190);
+            this.panelStatsContainer.TabIndex = 1;
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.White;
@@ -561,7 +561,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label14.Size = new System.Drawing.Size(152, 25);
             this.label14.TabIndex = 12;
             this.label14.Text = "Ngày khai giảng";
-            // 
+            this.dgvLopHoc.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // label13
             // 
             this.label13.AutoSize = true;
@@ -583,8 +583,8 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label12.Size = new System.Drawing.Size(108, 25);
             this.label12.TabIndex = 10;
             this.label12.Text = "Sĩ số tối đa";
-            // 
-            // label11
+            this.colMaLop.MinimumWidth = 10;
+            this.colMaLop.Name = "colMaLop";
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.White;
@@ -594,8 +594,8 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label11.Size = new System.Drawing.Size(130, 25);
             this.label11.TabIndex = 9;
             this.label11.Text = "Thời gian học";
-            // 
-            // label10
+            this.colTenLop.MinimumWidth = 10;
+            this.colTenLop.Name = "colTenLop";
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.White;
@@ -605,8 +605,8 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label10.Size = new System.Drawing.Size(94, 25);
             this.label10.TabIndex = 8;
             this.label10.Text = "Giáo viên";
-            // 
-            // label9
+            this.colKhoaHoc.MinimumWidth = 10;
+            this.colKhoaHoc.Name = "colKhoaHoc";
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
@@ -616,6 +616,8 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label9.Size = new System.Drawing.Size(96, 25);
             this.label9.TabIndex = 7;
             this.label9.Text = "Khoá học";
+            this.colGiaoVien.MinimumWidth = 10;
+            this.colGiaoVien.Name = "colGiaoVien";
             // 
             // label8
             // 
@@ -857,6 +859,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.Name = "FrmLopHoc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản Lý Lớp Học";
+            this.Load += new System.EventHandler(this.FrmLopHoc_Load_1);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();

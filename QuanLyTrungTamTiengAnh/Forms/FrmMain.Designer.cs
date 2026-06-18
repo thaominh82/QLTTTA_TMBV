@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
@@ -192,6 +193,17 @@
             this.Name = "FrmMain";
             this.Text = "Trang chủ";
             this.guna2Panel2.ResumeLayout(false);
+=======
+            this.SuspendLayout();
+            // 
+            // FrmMain
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "FrmMain";
+            this.Text = "FrmMain";
+>>>>>>> 86b15820a4ad494e8317966a5edcf7774e8f8f19
             this.ResumeLayout(false);
 
         }

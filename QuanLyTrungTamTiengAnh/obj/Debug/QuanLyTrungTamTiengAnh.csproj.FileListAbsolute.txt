@@ -21,3 +21,9 @@ D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.exe
 D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\QuanLyTrungTamTiengAnh.pdb
 D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\Guna.UI2.dll
 D:\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTr.6D5C7CA7.Up2Date
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\bin\Debug\Guna.UI2.dll
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Forms.FrmDangNhap.resources
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Forms.FrmKhoaHoc.resources
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Forms.FrmLopHoc.resources
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTrungTamTiengAnh.Forms.FrmMain.resources
+C:\Users\Adminz\source\repos\QLTTTA_TMBV\QuanLyTrungTamTiengAnh\obj\Debug\QuanLyTr.6D5C7CA7.Up2Date

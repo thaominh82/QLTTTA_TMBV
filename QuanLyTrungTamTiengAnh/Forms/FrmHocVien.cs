@@ -16,5 +16,15 @@ namespace QuanLyTrungTamTiengAnh.Forms
         {
             InitializeComponent();
         }
+
+        private void pnlTongHV_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void TxtSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

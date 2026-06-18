@@ -38,6 +38,7 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
+            this.txtThoiLuong = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.cboTrinhDo = new System.Windows.Forms.ComboBox();
             this.txtMoTa = new System.Windows.Forms.TextBox();
@@ -50,7 +51,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtMaKH = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtThoiLuong = new System.Windows.Forms.TextBox();
             this.picHome = new System.Windows.Forms.PictureBox();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2Button();
             this.txtTimKiem = new Guna.UI2.WinForms.Guna2TextBox();
@@ -144,13 +144,20 @@
             this.btnThem.Text = "+ Thêm mới";
             this.btnThem.UseVisualStyleBackColor = true;
             // 
+            // txtThoiLuong
+            // 
+            this.txtThoiLuong.Location = new System.Drawing.Point(1135, 167);
+            this.txtThoiLuong.Name = "txtThoiLuong";
+            this.txtThoiLuong.Size = new System.Drawing.Size(250, 34);
+            this.txtThoiLuong.TabIndex = 16;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(1391, 173);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 37);
+            this.label7.Size = new System.Drawing.Size(58, 30);
             this.label7.TabIndex = 19;
             this.label7.Text = "buổi";
             // 
@@ -164,7 +171,7 @@
             "Thiếu nhi"});
             this.cboTrinhDo.Location = new System.Drawing.Point(226, 242);
             this.cboTrinhDo.Name = "cboTrinhDo";
-            this.cboTrinhDo.Size = new System.Drawing.Size(327, 45);
+            this.cboTrinhDo.Size = new System.Drawing.Size(327, 36);
             this.cboTrinhDo.TabIndex = 18;
             // 
             // txtMoTa
@@ -179,14 +186,14 @@
             // 
             this.txtHocPhi.Location = new System.Drawing.Point(1135, 88);
             this.txtHocPhi.Name = "txtHocPhi";
-            this.txtHocPhi.Size = new System.Drawing.Size(326, 43);
+            this.txtHocPhi.Size = new System.Drawing.Size(326, 34);
             this.txtHocPhi.TabIndex = 15;
             // 
             // txtTenKH
             // 
             this.txtTenKH.Location = new System.Drawing.Point(226, 165);
             this.txtTenKH.Name = "txtTenKH";
-            this.txtTenKH.Size = new System.Drawing.Size(327, 43);
+            this.txtTenKH.Size = new System.Drawing.Size(327, 34);
             this.txtTenKH.TabIndex = 13;
             // 
             // label6
@@ -196,7 +203,7 @@
             this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(1013, 246);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(87, 37);
+            this.label6.Size = new System.Drawing.Size(68, 30);
             this.label6.TabIndex = 12;
             this.label6.Text = "Mô tả";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -208,7 +215,7 @@
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(955, 173);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(146, 37);
+            this.label5.Size = new System.Drawing.Size(114, 30);
             this.label5.TabIndex = 11;
             this.label5.Text = "Thời lượng";
             // 
@@ -219,7 +226,7 @@
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(989, 91);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 37);
+            this.label4.Size = new System.Drawing.Size(85, 30);
             this.label4.TabIndex = 10;
             this.label4.Text = "Học phí";
             // 
@@ -230,7 +237,7 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(89, 246);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 37);
+            this.label3.Size = new System.Drawing.Size(88, 30);
             this.label3.TabIndex = 9;
             this.label3.Text = "Trình độ";
             // 
@@ -241,7 +248,7 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(25, 173);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 37);
+            this.label2.Size = new System.Drawing.Size(136, 30);
             this.label2.TabIndex = 8;
             this.label2.Text = "Tên khóa học";
             // 
@@ -249,7 +256,7 @@
             // 
             this.txtMaKH.Location = new System.Drawing.Point(226, 88);
             this.txtMaKH.Name = "txtMaKH";
-            this.txtMaKH.Size = new System.Drawing.Size(327, 43);
+            this.txtMaKH.Size = new System.Drawing.Size(327, 34);
             this.txtMaKH.TabIndex = 7;
             // 
             // label1
@@ -259,16 +266,9 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(26, 91);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 37);
+            this.label1.Size = new System.Drawing.Size(139, 30);
             this.label1.TabIndex = 6;
             this.label1.Text = "Mã Khoá Học";
-            // 
-            // txtThoiLuong
-            // 
-            this.txtThoiLuong.Location = new System.Drawing.Point(1135, 167);
-            this.txtThoiLuong.Name = "txtThoiLuong";
-            this.txtThoiLuong.Size = new System.Drawing.Size(250, 43);
-            this.txtThoiLuong.TabIndex = 16;
             // 
             // picHome
             // 
@@ -310,7 +310,7 @@
             this.txtTimKiem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTimKiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTimKiem.Location = new System.Drawing.Point(573, 39);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(6);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.PlaceholderText = "Tìm kiếm khoá học...";
             this.txtTimKiem.SelectedText = "";
@@ -324,7 +324,7 @@
             this.label8.ForeColor = System.Drawing.Color.MediumVioletRed;
             this.label8.Location = new System.Drawing.Point(40, 39);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(451, 59);
+            this.label8.Size = new System.Drawing.Size(345, 45);
             this.label8.TabIndex = 30;
             this.label8.Text = "QUẢN LÝ KHOÁ HỌC";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -359,7 +359,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvLopHoc.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvLopHoc.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvLopHoc.Location = new System.Drawing.Point(50, 146);
+            this.dgvLopHoc.Location = new System.Drawing.Point(28, 142);
             this.dgvLopHoc.Name = "dgvLopHoc";
             this.dgvLopHoc.RowHeadersVisible = false;
             this.dgvLopHoc.RowHeadersWidth = 82;
@@ -413,10 +413,10 @@
             // 
             // FrmKhoaHoc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(242)))), ((int)(((byte)(245)))));
-            this.ClientSize = new System.Drawing.Size(1848, 1076);
+            this.ClientSize = new System.Drawing.Size(1848, 1050);
             this.Controls.Add(this.dgvLopHoc);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtTimKiem);

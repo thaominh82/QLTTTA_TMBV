@@ -70,6 +70,18 @@
     <Compile Include="Entity\HocVien.cs" />
     <Compile Include="Entity\KhoaHoc.cs" />
     <Compile Include="Entity\TaiKhoan.cs" />
+    <Compile Include="Forms\frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmKhoaHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmKhoaHoc.Designer.cs">
+      <DependentUpon>FrmKhoaHoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmLopHoc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,12 +94,6 @@
     <Compile Include="Forms\FrmDangKyHoc.Designer.cs">
       <DependentUpon>FrmDangKyHoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FrmDangNhap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FrmDangNhap.Designer.cs">
-      <DependentUpon>FrmDangNhap.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\FrmGiaoVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,12 +105,6 @@
     </Compile>
     <Compile Include="Forms\FrmHocVien.Designer.cs">
       <DependentUpon>FrmHocVien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\FrmKhoaHoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FrmKhoaHoc.Designer.cs">
-      <DependentUpon>FrmKhoaHoc.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmMain.cs">
       <SubType>Form</SubType>
@@ -129,8 +129,8 @@
     <EmbeddedResource Include="Forms\FrmDangKyHoc.resx">
       <DependentUpon>FrmDangKyHoc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmDangNhap.resx">
-      <DependentUpon>FrmDangNhap.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmGiaoVien.resx">
       <DependentUpon>FrmGiaoVien.cs</DependentUpon>
@@ -138,21 +138,16 @@
     <EmbeddedResource Include="Forms\FrmHocVien.resx">
       <DependentUpon>FrmHocVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FrmKhoaHoc.resx">
-      <DependentUpon>FrmKhoaHoc.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmLopHoc.resx">
       <DependentUpon>FrmLopHoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-<<<<<<< HEAD
-=======
     <EmbeddedResource Include="Forms\FrmTaiKhoan.resx">
       <DependentUpon>FrmTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
->>>>>>> 86b15820a4ad494e8317966a5edcf7774e8f8f19
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

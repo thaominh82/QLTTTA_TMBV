@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using QuanLyTrungTamTiengAnh.Forms;
+using System;
 using System.Windows.Forms;
-using QuanLyTrungTamTiengAnhTM_BV.GUI.Forms;
 
 namespace QuanLyTrungTamTiengAnhTM_BV.GUI.Forms
 {
@@ -20,22 +13,30 @@ namespace QuanLyTrungTamTiengAnhTM_BV.GUI.Forms
 
         private void frmDangNhap_Load(object sender, EventArgs e)
         {
-
+            // Code khởi tạo khi form chạy (nếu có)
         }
 
-        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        // Sự kiện này đã được liên kết với btnDangNhap trong Designer
+        private void btnDangNhap_Click(object sender, EventArgs e)
         {
+            // Tài khoản Admin cố định
+            string adminUser = "admin";
+            string adminPass = "123456";
 
-        }
+            // Sử dụng tên đúng: txtUsername và txtPassword
+            if (txtUsername.Text == adminUser && txtPassword.Text == adminPass)
+            {
+                MessageBox.Show("Chào mừng Admin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
-        {
-
+                // Mở Form Main
+                FrmMain frmMain = new FrmMain();
+                this.Hide();
+                frmMain.Show();
+            }
+            else
+            {
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

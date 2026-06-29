@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using QuanLyTrungTamTiengAnh.Forms; // Đảm bảo namespace này khớp với project của bạn
+using QuanLyTrungTamTiengAnh.Forms; 
 
 namespace QuanLyTrungTamTiengAnh
 {
@@ -15,8 +15,8 @@ namespace QuanLyTrungTamTiengAnh
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Khởi chạy Form Đăng nhập đầu tiên
-            Application.Run(new FrmDangNhap());
+     
+            Application.Run(new QuanLyTrungTamTiengAnhTM_BV.GUI.Forms.FrmDangNhap());
         }
     }
 }

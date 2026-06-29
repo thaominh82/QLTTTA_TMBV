@@ -43,6 +43,7 @@
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -70,11 +71,11 @@
     <Compile Include="Entity\HocVien.cs" />
     <Compile Include="Entity\KhoaHoc.cs" />
     <Compile Include="Entity\TaiKhoan.cs" />
-    <Compile Include="Forms\frmDangNhap.cs">
+    <Compile Include="Forms\FrmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmDangNhap.Designer.cs">
-      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    <Compile Include="Forms\FrmDangNhap.Designer.cs">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmKhoaHoc.cs">
       <SubType>Form</SubType>
@@ -129,14 +130,17 @@
     <EmbeddedResource Include="Forms\FrmDangKyHoc.resx">
       <DependentUpon>FrmDangKyHoc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmDangNhap.resx">
-      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmDangNhap.resx">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmGiaoVien.resx">
       <DependentUpon>FrmGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmHocVien.resx">
       <DependentUpon>FrmHocVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmKhoaHoc.resx">
+      <DependentUpon>FrmKhoaHoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmLopHoc.resx">
       <DependentUpon>FrmLopHoc.cs</DependentUpon>

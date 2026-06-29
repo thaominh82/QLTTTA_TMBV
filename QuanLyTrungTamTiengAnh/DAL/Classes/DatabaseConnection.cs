@@ -1,14 +1,13 @@
-﻿using System.Configuration;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 
-namespace QuanLyTrungTamTiengAnh.DAL
+namespace QuanLyTrungTamTiengAnh.DAL.Classes
 {
-    public class DatabaseConnection
+    public static class DatabaseConnection
     {
-        // Lấy chuỗi kết nối từ App.config
-        protected SqlConnection GetConnection()
+        private static string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=QuanLyTrungTamTiengAnh;Integrated Security=True";
+
+        public static SqlConnection GetConnection()
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
             return new SqlConnection(connectionString);
         }
     }

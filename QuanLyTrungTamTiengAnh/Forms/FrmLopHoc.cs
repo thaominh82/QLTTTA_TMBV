@@ -25,15 +25,16 @@ namespace QuanLyTrungTamTiengAnh.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLopHoc));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2Button();
             this.picHome = new System.Windows.Forms.PictureBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelStatsContainer = new Guna.UI2.WinForms.Guna2Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -55,7 +56,6 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.colThoiGianHoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSiSo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.grpThongTin = new Guna.UI2.WinForms.Guna2GroupBox();
             this.dtpNgayKhaiGiang = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -106,11 +106,11 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.panelHeader.Controls.Add(this.guna2TextBox1);
             this.panelHeader.Controls.Add(this.label1);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeader.FillColor = System.Drawing.Color.Transparent;
+            this.panelHeader.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
             this.panelHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(1879, 88);
+            this.panelHeader.Size = new System.Drawing.Size(1824, 87);
             this.panelHeader.TabIndex = 1;
             // 
             // btnTimKiem
@@ -123,7 +123,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnTimKiem.FillColor = System.Drawing.Color.LightPink;
             this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-            this.btnTimKiem.Location = new System.Drawing.Point(1286, 17);
+            this.btnTimKiem.Location = new System.Drawing.Point(1280, 26);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(204, 59);
             this.btnTimKiem.TabIndex = 27;
@@ -133,7 +133,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             // 
             this.picHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picHome.Image = ((System.Drawing.Image)(resources.GetObject("picHome.Image")));
-            this.picHome.Location = new System.Drawing.Point(1595, 3);
+            this.picHome.Location = new System.Drawing.Point(1589, 12);
             this.picHome.Name = "picHome";
             this.picHome.Size = new System.Drawing.Size(211, 78);
             this.picHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -152,7 +152,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(906, 14);
+            this.guna2TextBox1.Location = new System.Drawing.Point(900, 23);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PlaceholderText = "Tìm kiếm lớp học...";
@@ -163,9 +163,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
-            this.label1.Location = new System.Drawing.Point(14, 17);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.label1.Location = new System.Drawing.Point(13, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(409, 59);
             this.label1.TabIndex = 0;
@@ -173,7 +174,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             // 
             // panelStatsContainer
             // 
-            this.panelStatsContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(245)))), ((int)(((byte)(247)))));
+            this.panelStatsContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
             this.panelStatsContainer.Controls.Add(this.label6);
             this.panelStatsContainer.Controls.Add(this.guna2Panel4);
             this.panelStatsContainer.Controls.Add(this.guna2Panel3);
@@ -181,10 +182,22 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.panelStatsContainer.Controls.Add(this.guna2Panel1);
             this.panelStatsContainer.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelStatsContainer.FillColor = System.Drawing.Color.Transparent;
-            this.panelStatsContainer.Location = new System.Drawing.Point(0, 88);
+            this.panelStatsContainer.Location = new System.Drawing.Point(0, 87);
             this.panelStatsContainer.Name = "panelStatsContainer";
-            this.panelStatsContainer.Size = new System.Drawing.Size(1879, 271);
+            this.panelStatsContainer.Size = new System.Drawing.Size(1824, 270);
             this.panelStatsContainer.TabIndex = 2;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
+            this.label6.Location = new System.Drawing.Point(37, 216);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(377, 37);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "DANH SÁCH LỚP HỌC";
             // 
             // guna2Panel4
             // 
@@ -334,25 +347,24 @@ namespace QuanLyTrungTamTiengAnh.Forms
             // 
             this.guna2CustomGradientPanel1.Controls.Add(this.dgvLopHoc);
             this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 359);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 357);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1879, 327);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1824, 326);
             this.guna2CustomGradientPanel1.TabIndex = 3;
             // 
             // dgvLopHoc
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.dgvLopHoc.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
-            this.dgvLopHoc.BackgroundColor = System.Drawing.Color.LavenderBlush;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.dgvLopHoc.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvLopHoc.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.LightPink;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvLopHoc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvLopHoc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvLopHoc.ColumnHeadersHeight = 46;
             this.dgvLopHoc.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colMaLop,
@@ -362,14 +374,14 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.colThoiGianHoc,
             this.colSiSo,
             this.colTrangThai});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvLopHoc.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvLopHoc.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvLopHoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvLopHoc.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvLopHoc.Location = new System.Drawing.Point(0, 0);
@@ -377,12 +389,12 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.dgvLopHoc.RowHeadersVisible = false;
             this.dgvLopHoc.RowHeadersWidth = 82;
             this.dgvLopHoc.RowTemplate.Height = 33;
-            this.dgvLopHoc.Size = new System.Drawing.Size(1879, 327);
+            this.dgvLopHoc.Size = new System.Drawing.Size(1824, 326);
             this.dgvLopHoc.TabIndex = 3;
             this.dgvLopHoc.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvLopHoc.ThemeStyle.BackColor = System.Drawing.Color.LavenderBlush;
-            this.dgvLopHoc.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.LightPink;
+            this.dgvLopHoc.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
             this.dgvLopHoc.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvLopHoc.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
             this.dgvLopHoc.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvLopHoc.ThemeStyle.HeaderStyle.Height = 46;
             this.dgvLopHoc.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
@@ -431,30 +443,18 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.colTrangThai.MinimumWidth = 10;
             this.colTrangThai.Name = "colTrangThai";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
-            this.label6.Location = new System.Drawing.Point(37, 216);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(377, 37);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "DANH SÁCH LỚP HỌC";
-            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.grpThongTin);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 686);
+            this.panel1.Location = new System.Drawing.Point(0, 683);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1879, 386);
+            this.panel1.Size = new System.Drawing.Size(1824, 385);
             this.panel1.TabIndex = 4;
             // 
             // grpThongTin
             // 
-            this.grpThongTin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(245)))), ((int)(((byte)(247)))));
+            this.grpThongTin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
             this.grpThongTin.BorderRadius = 10;
             this.grpThongTin.Controls.Add(this.dtpNgayKhaiGiang);
             this.grpThongTin.Controls.Add(this.cboGiaoVien);
@@ -476,11 +476,12 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.grpThongTin.Controls.Add(this.label7);
             this.grpThongTin.CustomBorderColor = System.Drawing.Color.LightPink;
             this.grpThongTin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grpThongTin.FillColor = System.Drawing.SystemColors.Window;
             this.grpThongTin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpThongTin.ForeColor = System.Drawing.Color.White;
             this.grpThongTin.Location = new System.Drawing.Point(0, 0);
             this.grpThongTin.Name = "grpThongTin";
-            this.grpThongTin.Size = new System.Drawing.Size(1879, 386);
+            this.grpThongTin.Size = new System.Drawing.Size(1824, 385);
             this.grpThongTin.TabIndex = 1;
             this.grpThongTin.Text = "THÔNG TIN TÀI KHOẢN";
             // 
@@ -491,7 +492,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.dtpNgayKhaiGiang.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.dtpNgayKhaiGiang.ForeColor = System.Drawing.Color.Black;
             this.dtpNgayKhaiGiang.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dtpNgayKhaiGiang.Location = new System.Drawing.Point(893, 136);
+            this.dtpNgayKhaiGiang.Location = new System.Drawing.Point(864, 136);
             this.dtpNgayKhaiGiang.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpNgayKhaiGiang.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpNgayKhaiGiang.Name = "dtpNgayKhaiGiang";
@@ -509,7 +510,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.cboGiaoVien.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboGiaoVien.ForeColor = System.Drawing.Color.Black;
             this.cboGiaoVien.ItemHeight = 30;
-            this.cboGiaoVien.Location = new System.Drawing.Point(188, 284);
+            this.cboGiaoVien.Location = new System.Drawing.Point(159, 284);
             this.cboGiaoVien.Name = "cboGiaoVien";
             this.cboGiaoVien.Size = new System.Drawing.Size(371, 36);
             this.cboGiaoVien.TabIndex = 40;
@@ -524,7 +525,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.cboKhoaHoc.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboKhoaHoc.ForeColor = System.Drawing.Color.Black;
             this.cboKhoaHoc.ItemHeight = 30;
-            this.cboKhoaHoc.Location = new System.Drawing.Point(188, 215);
+            this.cboKhoaHoc.Location = new System.Drawing.Point(159, 215);
             this.cboKhoaHoc.Name = "cboKhoaHoc";
             this.cboKhoaHoc.Size = new System.Drawing.Size(371, 36);
             this.cboKhoaHoc.TabIndex = 39;
@@ -547,7 +548,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             "",
             "",
             "Cuối tuần (Sáng T7, CN)"});
-            this.cboThoiGianHoc.Location = new System.Drawing.Point(894, 67);
+            this.cboThoiGianHoc.Location = new System.Drawing.Point(865, 67);
             this.cboThoiGianHoc.Name = "cboThoiGianHoc";
             this.cboThoiGianHoc.Size = new System.Drawing.Size(371, 36);
             this.cboThoiGianHoc.TabIndex = 38;
@@ -570,7 +571,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             "",
             "",
             "Đã kết thúc"});
-            this.cboTrangThai.Location = new System.Drawing.Point(894, 284);
+            this.cboTrangThai.Location = new System.Drawing.Point(865, 284);
             this.cboTrangThai.Name = "cboTrangThai";
             this.cboTrangThai.Size = new System.Drawing.Size(371, 36);
             this.cboTrangThai.TabIndex = 37;
@@ -587,7 +588,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.txtGhiChu.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.txtGhiChu.ForeColor = System.Drawing.Color.Black;
             this.txtGhiChu.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGhiChu.Location = new System.Drawing.Point(1448, 67);
+            this.txtGhiChu.Location = new System.Drawing.Point(1419, 67);
             this.txtGhiChu.Margin = new System.Windows.Forms.Padding(6);
             this.txtGhiChu.Multiline = true;
             this.txtGhiChu.Name = "txtGhiChu";
@@ -608,7 +609,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.txtSiso.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSiso.ForeColor = System.Drawing.Color.Black;
             this.txtSiso.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSiso.Location = new System.Drawing.Point(893, 203);
+            this.txtSiso.Location = new System.Drawing.Point(864, 203);
             this.txtSiso.Margin = new System.Windows.Forms.Padding(6);
             this.txtSiso.Name = "txtSiso";
             this.txtSiso.PlaceholderText = "";
@@ -628,7 +629,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.txtTenLop.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenLop.ForeColor = System.Drawing.Color.Black;
             this.txtTenLop.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTenLop.Location = new System.Drawing.Point(187, 141);
+            this.txtTenLop.Location = new System.Drawing.Point(158, 141);
             this.txtTenLop.Margin = new System.Windows.Forms.Padding(6);
             this.txtTenLop.Name = "txtTenLop";
             this.txtTenLop.PlaceholderText = "";
@@ -648,7 +649,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.txtMaLop.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaLop.ForeColor = System.Drawing.Color.Black;
             this.txtMaLop.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMaLop.Location = new System.Drawing.Point(187, 67);
+            this.txtMaLop.Location = new System.Drawing.Point(158, 67);
             this.txtMaLop.Margin = new System.Windows.Forms.Padding(6);
             this.txtMaLop.Name = "txtMaLop";
             this.txtMaLop.PlaceholderText = "";
@@ -662,7 +663,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label15.BackColor = System.Drawing.Color.White;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(1331, 67);
+            this.label15.Location = new System.Drawing.Point(1302, 67);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(114, 31);
             this.label15.TabIndex = 32;
@@ -674,7 +675,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label14.BackColor = System.Drawing.Color.White;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(668, 141);
+            this.label14.Location = new System.Drawing.Point(639, 141);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(223, 31);
             this.label14.TabIndex = 31;
@@ -686,7 +687,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(668, 289);
+            this.label13.Location = new System.Drawing.Point(639, 289);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(146, 31);
             this.label13.TabIndex = 30;
@@ -698,7 +699,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(668, 215);
+            this.label12.Location = new System.Drawing.Point(639, 215);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(159, 31);
             this.label12.TabIndex = 29;
@@ -710,7 +711,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label11.BackColor = System.Drawing.Color.White;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(668, 67);
+            this.label11.Location = new System.Drawing.Point(639, 67);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(189, 31);
             this.label11.TabIndex = 28;
@@ -722,7 +723,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label10.BackColor = System.Drawing.Color.White;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(59, 289);
+            this.label10.Location = new System.Drawing.Point(30, 289);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(137, 31);
             this.label10.TabIndex = 27;
@@ -734,7 +735,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(59, 215);
+            this.label9.Location = new System.Drawing.Point(30, 215);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(136, 31);
             this.label9.TabIndex = 26;
@@ -746,7 +747,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(59, 141);
+            this.label8.Location = new System.Drawing.Point(30, 141);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(111, 31);
             this.label8.TabIndex = 25;
@@ -758,7 +759,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(59, 67);
+            this.label7.Location = new System.Drawing.Point(30, 67);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 31);
             this.label7.TabIndex = 24;
@@ -777,7 +778,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnHuy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
             this.btnHuy.Location = new System.Drawing.Point(1322, 1102);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(204, 45);
+            this.btnHuy.Size = new System.Drawing.Size(168, 44);
             this.btnHuy.TabIndex = 42;
             this.btnHuy.Text = "🔄 Huỷ";
             this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
@@ -795,7 +796,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnXoa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
             this.btnXoa.Location = new System.Drawing.Point(1069, 1102);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(204, 45);
+            this.btnXoa.Size = new System.Drawing.Size(168, 44);
             this.btnXoa.TabIndex = 43;
             this.btnXoa.Text = "❌ Xóa";
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
@@ -813,7 +814,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnSua.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
             this.btnSua.Location = new System.Drawing.Point(816, 1102);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(204, 45);
+            this.btnSua.Size = new System.Drawing.Size(168, 44);
             this.btnSua.TabIndex = 41;
             this.btnSua.Text = "✏️ Sửa";
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click_1);
@@ -831,7 +832,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnLuu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
             this.btnLuu.Location = new System.Drawing.Point(563, 1102);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(204, 45);
+            this.btnLuu.Size = new System.Drawing.Size(168, 44);
             this.btnLuu.TabIndex = 40;
             this.btnLuu.Text = "💾 Lưu";
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click_1);
@@ -849,15 +850,15 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnThem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
             this.btnThem.Location = new System.Drawing.Point(310, 1102);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(204, 45);
+            this.btnThem.Size = new System.Drawing.Size(168, 44);
             this.btnThem.TabIndex = 39;
             this.btnThem.Text = "+ Thêm mới";
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click_1);
             // 
             // FrmLopHoc
             // 
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(245)))), ((int)(((byte)(247)))));
-            this.ClientSize = new System.Drawing.Size(1879, 1178);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(1824, 1159);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);

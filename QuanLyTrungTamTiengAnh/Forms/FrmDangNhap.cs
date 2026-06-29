@@ -11,9 +11,9 @@ using QuanLyTrungTamTiengAnhTM_BV.GUI.Forms;
 
 namespace QuanLyTrungTamTiengAnhTM_BV.GUI.Forms
 {
-    public partial class frmDangNhap : Form
+    public partial class FrmDangNhap : Form
     {
-        public frmDangNhap()
+        public FrmDangNhap()
         {
             InitializeComponent();
         }

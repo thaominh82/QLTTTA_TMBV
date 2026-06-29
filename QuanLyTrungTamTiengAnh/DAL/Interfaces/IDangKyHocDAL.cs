@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data;
 
 namespace QuanLyTrungTamTiengAnh.DAL.Interfaces
 {
-    internal class IDangKyHocDAL
+    public interface IDangKyHocDAL
     {
+        DataTable LayDanhSachDangKy();
+        bool ThemDangKy(string maDK, string maHV, string maKH, DateTime ngayDK, decimal hocPhi, string trangThai, string ghiChu);
     }
 }

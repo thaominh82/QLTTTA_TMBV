@@ -26,5 +26,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
         {
 
         }
+
+        private void FrmDangKyHoc_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

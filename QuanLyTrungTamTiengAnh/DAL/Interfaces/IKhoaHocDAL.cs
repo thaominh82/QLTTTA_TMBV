@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 
 namespace QuanLyTrungTamTiengAnh.DAL.Interfaces
 {
-    internal class IKhoaHocDAL
+    public interface IKhoaHocDAL
     {
+        DataTable LayDanhSachKhoaHoc();
+        bool ThemKhoaHoc(string maKH, string tenKH, string trinhDo, decimal hocPhi, int thoiLuong, string moTa);
+        bool SuaKhoaHoc(string maKH, string tenKH, string trinhDo, decimal hocPhi, int thoiLuong, string moTa);
+        bool XoaKhoaHoc(string maKH);
     }
 }

@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 
 namespace QuanLyTrungTamTiengAnh.DAL.Interfaces
 {
-    internal class ITaiKhoanDAL
+    public interface ITaiKhoanDAL
     {
+        bool KiemTraDangNhap(string tenDangNhap, string matKhau);
+        DataTable LayDanhSachTaiKhoan();
+        bool ThemTaiKhoan(string tenDN, string matKhau, string hoTen, string email, string vaiTro, string trangThai, string ghiChu);
     }
 }

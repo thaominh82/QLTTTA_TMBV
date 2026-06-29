@@ -32,9 +32,10 @@
             // 
             // FrmGiaoVien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1814, 694);
+            this.ClientSize = new System.Drawing.Size(1683, 1092);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmGiaoVien";
             this.Text = "Quản lí giáo viên";
             this.ResumeLayout(false);

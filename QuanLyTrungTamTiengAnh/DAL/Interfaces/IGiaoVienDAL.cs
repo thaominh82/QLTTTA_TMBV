@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 
 namespace QuanLyTrungTamTiengAnh.DAL.Interfaces
 {
-    internal class IGiaoVienDAL
+    public interface IGiaoVienDAL
     {
+        DataTable LayDanhSachGiaoVien();
+        bool ThemGiaoVien(string maGV, string hoTen, string sdt, string email, string chuyênMon);
     }
 }

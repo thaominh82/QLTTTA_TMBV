@@ -1,11 +1,10 @@
-﻿using System;
-using System.Data;
+﻿using System.Data;
 
-namespace QuanLyTrungTamTiengAnh.DAL.Interfaces
+namespace QuanLyTrungTamTiengAnh.DAL
 {
     public interface IHocVienDAL
     {
-        DataTable LayDanhSachHocVien();
-        bool ThemHocVien(string maHV, string hoTen, DateTime ngaySinh, string gioiTinh, string sdt, string email, string diaChi, string trangThai);
+        DataTable LayDanhSach();
+        int DemHocVien(string dieuKien);
     }
 }

@@ -15,6 +15,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
         public FrmMain()
         {
             InitializeComponent();
+            this.btnHocVien.Click += new System.EventHandler(this.btnHocVien_Click);
         }
 
         private void FrmMain_Load(object sender, EventArgs e)
@@ -28,7 +29,15 @@ namespace QuanLyTrungTamTiengAnh.Forms
             chartThongKe.Series["Series1"].Points.AddXY("Tháng 6", 256); 
         }
 
-       
+        private void btnHocVien_Click(object sender, EventArgs e)
+        {
+            // Tạo form Học viên
+            QuanLyTrungTamTiengAnh.Forms.FrmHocVien hv = new QuanLyTrungTamTiengAnh.Forms.FrmHocVien();
+            // Hiển thị nó
+            hv.Show();
+            // Ẩn form Main hiện tại
+            this.Hide();
+        }
 
         private void guna2Panel2_Paint(object sender, PaintEventArgs e)
         {

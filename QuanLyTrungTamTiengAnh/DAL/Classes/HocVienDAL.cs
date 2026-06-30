@@ -1,38 +1,29 @@
-﻿using System;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
-using QuanLyTrungTamTiengAnh.DAL.Interfaces;
 
-namespace QuanLyTrungTamTiengAnh.DAL.Classes
+public class HocVienDAL : QuanLyTrungTamTiengAnh.DAL.IHocVienDAL
 {
-    public class HocVienDAL : IHocVienDAL
-    {
-        public DataTable LayDanhSachHocVien()
-        {
-            DataTable dt = new DataTable();
-            string query = "SELECT MaHV, HoTen, NgaySinh, GioiTinh, SDT FROM HocVien";
-            using (SqlConnection conn = DatabaseConnection.GetConnection())
-            {
-                SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
-                adapter.Fill(dt);
-            }
-            return dt;
-        }
+    string connString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=QuanLyTrungTamTiengAnh;Integrated Security=True;TrustServerCertificate=True";
 
-        public bool ThemHocVien(string maHV, string hoTen, DateTime ngaySinh, string gioiTinh, string sdt, string email, string diaChi, string trangThai)
+    public DataTable LayDanhSach()
+    {
+        DataTable dt = new DataTable();
+        using (SqlConnection conn = new SqlConnection(connString))
         {
-            string query = "INSERT INTO HocVien (MaHV, HoTen, NgaySinh, GioiTinh, SDT) VALUES (@Ma, @Ten, @NgaySinh, @GioiTinh, @SDT)";
-            using (SqlConnection conn = DatabaseConnection.GetConnection())
-            {
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@Ma", maHV);
-                cmd.Parameters.AddWithValue("@Ten", hoTen);
-                cmd.Parameters.AddWithValue("@NgaySinh", ngaySinh);
-                cmd.Parameters.AddWithValue("@GioiTinh", gioiTinh);
-                cmd.Parameters.AddWithValue("@SDT", sdt);
-                conn.Open();
-                return cmd.ExecuteNonQuery() > 0;
-            }
+            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM HocVien", conn);
+            da.Fill(dt);
+        }
+        return dt;
+    }
+
+    public int DemHocVien(string dieuKien)
+    {
+        using (SqlConnection conn = new SqlConnection(connString))
+        {
+            conn.Open();
+            string sql = "SELECT COUNT(*) FROM HocVien " + dieuKien;
+            SqlCommand cmd = new SqlCommand(sql, conn);
+            return (int)cmd.ExecuteScalar();
         }
     }
 }

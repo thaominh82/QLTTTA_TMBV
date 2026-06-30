@@ -28,10 +28,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             chartThongKe.Series["Series1"].Points.AddXY("Tháng 6", 256); 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            dtpDateTime.Value = DateTime.Now;
-        }
+       
 
         private void guna2Panel2_Paint(object sender, PaintEventArgs e)
         {

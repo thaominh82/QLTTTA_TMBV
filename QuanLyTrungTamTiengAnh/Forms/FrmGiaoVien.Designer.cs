@@ -291,7 +291,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.txtTImKiem.SelectedText = "";
             this.txtTImKiem.Size = new System.Drawing.Size(371, 62);
             this.txtTImKiem.TabIndex = 31;
-            this.txtTImKiem.TextChanged += new System.EventHandler(this.txtTImKiem_TextChanged);
+            
             // 
             // label7
             // 
@@ -431,8 +431,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.dgvLopHoc.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvLopHoc.ThemeStyle.RowsStyle.Height = 33;
             this.dgvLopHoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLopHoc_CellContentClick);
-            this.dgvLopHoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLopHoc_CellContentClick_1);
-            // 
+            
             // colMaGV
             // 
             this.colMaGV.DataPropertyName = "MaGV";

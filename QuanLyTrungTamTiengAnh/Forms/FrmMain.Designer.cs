@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -102,7 +102,7 @@
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(285, 701);
+            this.guna2Panel1.Size = new System.Drawing.Size(285, 1050);
             this.guna2Panel1.TabIndex = 0;
             // 
             // pictureBox2
@@ -249,7 +249,7 @@
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel2.Location = new System.Drawing.Point(285, 0);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(999, 701);
+            this.guna2Panel2.Size = new System.Drawing.Size(1539, 1050);
             this.guna2Panel2.TabIndex = 1;
             // 
             // panel2
@@ -263,23 +263,23 @@
             // 
             // chartThongKe
             // 
-            chartArea1.AxisX.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.False;
-            chartArea1.Name = "ChartArea1";
-            this.chartThongKe.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartThongKe.Legends.Add(legend1);
+            chartArea2.AxisX.Enabled = System.Windows.Forms.DataVisualization.Charting.AxisEnabled.False;
+            chartArea2.Name = "ChartArea1";
+            this.chartThongKe.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartThongKe.Legends.Add(legend2);
             this.chartThongKe.Location = new System.Drawing.Point(-19, 72);
             this.chartThongKe.Margin = new System.Windows.Forms.Padding(2);
             this.chartThongKe.Name = "chartThongKe";
-            series1.BorderWidth = 3;
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.Color = System.Drawing.Color.DeepPink;
-            series1.Legend = "Legend1";
-            series1.MarkerSize = 8;
-            series1.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
-            series1.Name = "Series1";
-            this.chartThongKe.Series.Add(series1);
+            series2.BorderWidth = 3;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.Color = System.Drawing.Color.DeepPink;
+            series2.Legend = "Legend1";
+            series2.MarkerSize = 8;
+            series2.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
+            series2.Name = "Series1";
+            this.chartThongKe.Series.Add(series2);
             this.chartThongKe.Size = new System.Drawing.Size(752, 354);
             this.chartThongKe.TabIndex = 0;
             this.chartThongKe.Text = "chart1";
@@ -324,7 +324,7 @@
             this.comboBox1.Location = new System.Drawing.Point(235, 66);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(156, 33);
+            this.comboBox1.Size = new System.Drawing.Size(156, 40);
             this.comboBox1.TabIndex = 28;
             this.comboBox1.Text = "Hiển thị tất cả";
             // 
@@ -353,7 +353,7 @@
             this.label13.Location = new System.Drawing.Point(4, 26);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(276, 28);
+            this.label13.Size = new System.Drawing.Size(369, 37);
             this.label13.TabIndex = 14;
             this.label13.Text = "🔔 THÔNG BÁO MỚI NHẤT";
             // 
@@ -365,7 +365,7 @@
             this.label9.Location = new System.Drawing.Point(22, 390);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(189, 50);
+            this.label9.Size = new System.Drawing.Size(253, 64);
             this.label9.TabIndex = 26;
             this.label9.Text = "Lớp Toeic mã T02 vừa \r\nđược xếp lịch.";
             // 
@@ -426,7 +426,7 @@
             this.label12.Location = new System.Drawing.Point(22, 131);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(228, 50);
+            this.label12.Size = new System.Drawing.Size(302, 64);
             this.label12.TabIndex = 17;
             this.label12.Text = "Học viên Nguyễn Văn A \r\nvừa đăng ký khóa học mới.";
             // 
@@ -438,7 +438,7 @@
             this.label10.Location = new System.Drawing.Point(18, 302);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(228, 50);
+            this.label10.Size = new System.Drawing.Size(302, 64);
             this.label10.TabIndex = 23;
             this.label10.Text = "Học viên Trần Thị Hương\r\nvừa đăng ký khóa học mới.";
             // 
@@ -516,7 +516,7 @@
             this.label11.Location = new System.Drawing.Point(22, 211);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(200, 50);
+            this.label11.Size = new System.Drawing.Size(273, 64);
             this.label11.TabIndex = 20;
             this.label11.Text = "Học viên Trần Thị B vừa \r\nđóng học phí.\r\n";
             // 
@@ -532,7 +532,7 @@
             this.panelStatsContainer.Location = new System.Drawing.Point(0, 113);
             this.panelStatsContainer.Margin = new System.Windows.Forms.Padding(2);
             this.panelStatsContainer.Name = "panelStatsContainer";
-            this.panelStatsContainer.Size = new System.Drawing.Size(999, 178);
+            this.panelStatsContainer.Size = new System.Drawing.Size(1539, 178);
             this.panelStatsContainer.TabIndex = 8;
             // 
             // pnlTamDung
@@ -556,7 +556,7 @@
             this.label4.Location = new System.Drawing.Point(34, 11);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 30);
+            this.label4.Size = new System.Drawing.Size(138, 37);
             this.label4.TabIndex = 9;
             this.label4.Text = "Tạm dừng";
             // 
@@ -581,7 +581,7 @@
             this.label3.Location = new System.Drawing.Point(34, 11);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 30);
+            this.label3.Size = new System.Drawing.Size(156, 37);
             this.label3.TabIndex = 9;
             this.label3.Text = "Hoàn thành";
             // 
@@ -606,7 +606,7 @@
             this.label2.Location = new System.Drawing.Point(34, 11);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 30);
+            this.label2.Size = new System.Drawing.Size(131, 37);
             this.label2.TabIndex = 9;
             this.label2.Text = "Đang học";
             // 
@@ -631,7 +631,7 @@
             this.lblTitleTongHocVien.Location = new System.Drawing.Point(34, 11);
             this.lblTitleTongHocVien.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitleTongHocVien.Name = "lblTitleTongHocVien";
-            this.lblTitleTongHocVien.Size = new System.Drawing.Size(144, 30);
+            this.lblTitleTongHocVien.Size = new System.Drawing.Size(184, 37);
             this.lblTitleTongHocVien.TabIndex = 9;
             this.lblTitleTongHocVien.Text = "Tổng học viên";
             // 
@@ -643,7 +643,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(999, 113);
+            this.panel1.Size = new System.Drawing.Size(1539, 113);
             this.panel1.TabIndex = 7;
             // 
             // label1
@@ -655,7 +655,7 @@
             this.label1.Location = new System.Drawing.Point(0, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(331, 45);
+            this.label1.Size = new System.Drawing.Size(431, 59);
             this.label1.TabIndex = 2;
             this.label1.Text = "Xin chào, Admin!👋";
             // 
@@ -667,20 +667,22 @@
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(3, 61);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(334, 27);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(461, 33);
             this.guna2HtmlLabel2.TabIndex = 5;
             this.guna2HtmlLabel2.Text = "Chúc bạn một ngày làm việc hiệu quả.";
             // 
             // FrmMain
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1284, 701);
+            this.ClientSize = new System.Drawing.Size(1824, 1050);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang chủ";
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.guna2Panel1.ResumeLayout(false);

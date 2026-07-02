@@ -83,13 +83,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
             guna2CirclePictureBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             guna2CirclePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox4.Image")));
             guna2CirclePictureBox4.ImageRotate = 0F;
-<<<<<<< Updated upstream
             guna2CirclePictureBox4.Location = new System.Drawing.Point(6, 18);
             guna2CirclePictureBox4.Margin = new System.Windows.Forms.Padding(2);
-=======
             guna2CirclePictureBox4.Location = new System.Drawing.Point(8, 22);
             guna2CirclePictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
             guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             guna2CirclePictureBox4.Size = new System.Drawing.Size(100, 100);
@@ -110,11 +107,8 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.guna2Panel1.Controls.Add(this.label7);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-<<<<<<< Updated upstream
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1824, 316);
             this.guna2Panel1.TabIndex = 5;
@@ -137,13 +131,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.pnlDaHuy.Controls.Add(this.guna2CirclePictureBox3);
             this.pnlDaHuy.Controls.Add(this.label5);
             this.pnlDaHuy.FillColor = System.Drawing.Color.White;
-<<<<<<< Updated upstream
             this.pnlDaHuy.Location = new System.Drawing.Point(966, 84);
             this.pnlDaHuy.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.pnlDaHuy.Location = new System.Drawing.Point(1288, 105);
             this.pnlDaHuy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.pnlDaHuy.Name = "pnlDaHuy";
             this.pnlDaHuy.Size = new System.Drawing.Size(372, 148);
             this.pnlDaHuy.TabIndex = 38;
@@ -154,13 +145,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.guna2CirclePictureBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.guna2CirclePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox3.Image")));
             this.guna2CirclePictureBox3.ImageRotate = 0F;
-<<<<<<< Updated upstream
             this.guna2CirclePictureBox3.Location = new System.Drawing.Point(6, 18);
             this.guna2CirclePictureBox3.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.guna2CirclePictureBox3.Location = new System.Drawing.Point(8, 22);
             this.guna2CirclePictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
             this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox3.Size = new System.Drawing.Size(100, 100);
@@ -185,13 +173,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.pnlDangHoc.Controls.Add(this.label2);
             this.pnlDangHoc.Controls.Add(this.guna2CirclePictureBox1);
             this.pnlDangHoc.FillColor = System.Drawing.Color.White;
-<<<<<<< Updated upstream
             this.pnlDangHoc.Location = new System.Drawing.Point(472, 84);
             this.pnlDangHoc.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.pnlDangHoc.Location = new System.Drawing.Point(629, 105);
             this.pnlDangHoc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.pnlDangHoc.Name = "pnlDangHoc";
             this.pnlDangHoc.Size = new System.Drawing.Size(372, 148);
             this.pnlDangHoc.TabIndex = 36;
@@ -213,13 +198,11 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-<<<<<<< Updated upstream
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(6, 18);
             this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2);
-=======
+
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(8, 22);
             this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(100, 100);
@@ -233,13 +216,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.pnlTong.Controls.Add(guna2CirclePictureBox4);
             this.pnlTong.Controls.Add(this.label4);
             this.pnlTong.FillColor = System.Drawing.Color.White;
-<<<<<<< Updated upstream
             this.pnlTong.Location = new System.Drawing.Point(16, 84);
             this.pnlTong.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.pnlTong.Location = new System.Drawing.Point(21, 105);
             this.pnlTong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.pnlTong.Name = "pnlTong";
             this.pnlTong.Size = new System.Drawing.Size(372, 148);
             this.pnlTong.TabIndex = 35;
@@ -265,13 +245,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnTimKiem.FillColor = System.Drawing.Color.LightBlue;
             this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-<<<<<<< Updated upstream
             this.btnTimKiem.Location = new System.Drawing.Point(882, 22);
             this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.btnTimKiem.Location = new System.Drawing.Point(1176, 28);
             this.btnTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(260, 59);
             this.btnTimKiem.TabIndex = 33;
@@ -282,17 +259,15 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.picHome.BackColor = System.Drawing.Color.Transparent;
             this.picHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picHome.Image = ((System.Drawing.Image)(resources.GetObject("picHome.Image")));
-<<<<<<< Updated upstream
             this.picHome.Location = new System.Drawing.Point(1192, 10);
             this.picHome.Margin = new System.Windows.Forms.Padding(2);
             this.picHome.Name = "picHome";
             this.picHome.Size = new System.Drawing.Size(158, 62);
-=======
+
             this.picHome.Location = new System.Drawing.Point(1589, 12);
             this.picHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picHome.Name = "picHome";
             this.picHome.Size = new System.Drawing.Size(211, 78);
->>>>>>> Stashed changes
             this.picHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picHome.TabIndex = 32;
             this.picHome.TabStop = false;
@@ -336,38 +311,15 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.guna2Panel2.Controls.Add(this.btnSua);
             this.guna2Panel2.Controls.Add(this.btnThem);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-<<<<<<< Updated upstream
             this.guna2Panel2.Location = new System.Drawing.Point(0, 733);
             this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.guna2Panel2.Location = new System.Drawing.Point(0, 916);
             this.guna2Panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(1824, 134);
             this.guna2Panel2.TabIndex = 6;
+
             // 
-<<<<<<< Updated upstream
-            // btnHuy
-            // 
-            this.btnHuy.BackColor = System.Drawing.Color.Transparent;
-            this.btnHuy.BorderRadius = 15;
-            this.btnHuy.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHuy.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHuy.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHuy.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHuy.FillColor = System.Drawing.Color.Pink;
-            this.btnHuy.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHuy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-            this.btnHuy.Location = new System.Drawing.Point(977, 36);
-            this.btnHuy.Margin = new System.Windows.Forms.Padding(2);
-            this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(153, 36);
-            this.btnHuy.TabIndex = 47;
-            this.btnHuy.Text = "🔄 Huỷ";
-            // 
-=======
->>>>>>> Stashed changes
             // btnXoa
             // 
             this.btnXoa.BackColor = System.Drawing.Color.Transparent;
@@ -379,13 +331,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnXoa.FillColor = System.Drawing.Color.Pink;
             this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-<<<<<<< Updated upstream
             this.btnXoa.Location = new System.Drawing.Point(788, 36);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.btnXoa.Location = new System.Drawing.Point(915, 45);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(204, 45);
             this.btnXoa.TabIndex = 48;
@@ -402,39 +351,15 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnSua.FillColor = System.Drawing.Color.Pink;
             this.btnSua.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-<<<<<<< Updated upstream
             this.btnSua.Location = new System.Drawing.Point(598, 36);
             this.btnSua.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.btnSua.Location = new System.Drawing.Point(585, 45);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(204, 45);
             this.btnSua.TabIndex = 46;
             this.btnSua.Text = "✏️ Sửa";
             // 
-<<<<<<< Updated upstream
-            // btnLuu
-            // 
-            this.btnLuu.BackColor = System.Drawing.Color.Transparent;
-            this.btnLuu.BorderRadius = 15;
-            this.btnLuu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnLuu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnLuu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLuu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLuu.FillColor = System.Drawing.Color.Pink;
-            this.btnLuu.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-            this.btnLuu.Location = new System.Drawing.Point(408, 36);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(2);
-            this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(153, 36);
-            this.btnLuu.TabIndex = 45;
-            this.btnLuu.Text = "💾 Lưu";
-            // 
-=======
->>>>>>> Stashed changes
             // btnThem
             // 
             this.btnThem.BackColor = System.Drawing.Color.Transparent;
@@ -446,13 +371,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnThem.FillColor = System.Drawing.Color.Pink;
             this.btnThem.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-<<<<<<< Updated upstream
             this.btnThem.Location = new System.Drawing.Point(218, 36);
             this.btnThem.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.btnThem.Location = new System.Drawing.Point(211, 45);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(204, 45);
             this.btnThem.TabIndex = 44;
@@ -489,13 +411,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.dgvLopHoc.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvLopHoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvLopHoc.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-<<<<<<< Updated upstream
             this.dgvLopHoc.Location = new System.Drawing.Point(0, 253);
             this.dgvLopHoc.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.dgvLopHoc.Location = new System.Drawing.Point(0, 316);
             this.dgvLopHoc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Stashed changes
             this.dgvLopHoc.Name = "dgvLopHoc";
             this.dgvLopHoc.RowHeadersVisible = false;
             this.dgvLopHoc.RowHeadersWidth = 82;
@@ -511,11 +430,8 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.dgvLopHoc.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dgvLopHoc.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvLopHoc.ThemeStyle.RowsStyle.Height = 33;
-<<<<<<< Updated upstream
             this.dgvLopHoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLopHoc_CellContentClick);
-=======
             this.dgvLopHoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLopHoc_CellContentClick_1);
->>>>>>> Stashed changes
             // 
             // colMaGV
             // 
@@ -567,11 +483,8 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.Controls.Add(this.dgvLopHoc);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
-<<<<<<< Updated upstream
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-=======
             this.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> Stashed changes
             this.Name = "FrmGiaoVien";
             this.Text = "Quản lí giáo viên";
             ((System.ComponentModel.ISupportInitialize)(guna2CirclePictureBox4)).EndInit();

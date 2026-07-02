@@ -16,6 +16,12 @@ namespace QuanLyTrungTamTiengAnh.Forms
         {
             InitializeComponent();
             this.btnHocVien.Click += new System.EventHandler(this.btnHocVien_Click);
+            this.btnGiaoVien.Click += new System.EventHandler(this.btnGiaoVien_Click);
+            this.btnKhoaHoc.Click += new System.EventHandler(this.btnKhoaHoc_Click);
+            this.btnLopHoc.Click += new System.EventHandler(this.btnLopHoc_Click);
+            this.btnTaiKhoan.Click += new System.EventHandler(this.btnTaiKhoan_Click);
+            this.btnDangKyHoc.Click += new System.EventHandler(this.btnDangKyHoc_Click);
+
         }
 
         private void FrmMain_Load(object sender, EventArgs e)
@@ -38,7 +44,37 @@ namespace QuanLyTrungTamTiengAnh.Forms
             // Ẩn form Main hiện tại
             this.Hide();
         }
+        private void btnGiaoVien_Click(object sender, EventArgs e)
+        {
+            FrmGiaoVien gv = new FrmGiaoVien();
+            gv.Show();
+            this.Hide();
+        }
 
+        private void btnKhoaHoc_Click(object sender, EventArgs e)
+        {
+            FrmKhoaHoc kh = new FrmKhoaHoc();
+            kh.Show();
+            this.Hide();
+        }
+        private void btnLopHoc_Click(object sender, EventArgs e)
+        {
+            FrmLopHoc kh = new FrmLopHoc();
+            kh.Show();
+            this.Hide();
+        }
+        private void btnTaiKhoan_Click(object sender, EventArgs e)
+        {
+            FrmTaiKhoan kh = new FrmTaiKhoan();
+            kh.Show();
+            this.Hide();
+        }
+        private void btnDangKyHoc_Click(object sender, EventArgs e)
+        {
+            FrmDangKyHoc kh = new FrmDangKyHoc();
+            kh.Show();
+            this.Hide();
+        }
         private void guna2Panel2_Paint(object sender, PaintEventArgs e)
         {
         }

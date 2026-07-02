@@ -15,7 +15,10 @@ namespace QuanLyTrungTamTiengAnh.Forms
         public FrmTaiKhoan()
         {
             InitializeComponent();
+            // Nối sự kiện cho picHome
+            this.picHome.Click += new System.EventHandler(this.picHome_Click);
         }
+       
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -39,7 +42,9 @@ namespace QuanLyTrungTamTiengAnh.Forms
 
         private void picHome_Click(object sender, EventArgs e)
         {
-
+            FrmMain main = new FrmMain();
+            main.Show();
+            this.Close();
         }
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)

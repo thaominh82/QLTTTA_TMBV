@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using QuanLyTrungTamTiengAnh.Forms;
 namespace QuanLyTrungTamTiengAnh.Forms
 {
     public partial class FrmLopHoc : Form
@@ -15,8 +15,15 @@ namespace QuanLyTrungTamTiengAnh.Forms
         public FrmLopHoc()
         {
             InitializeComponent();
+            // Nối sự kiện cho picHome
+            this.picHome.Click += new System.EventHandler(this.picHome_Click);
         }
-
+        private void picHome_Click(object sender, EventArgs e)
+        {
+            FrmMain main = new FrmMain();
+            main.Show();
+            this.Close();
+        }
         private void FrmLopHoc_Load(object sender, EventArgs e)
         {
 
@@ -25,9 +32,9 @@ namespace QuanLyTrungTamTiengAnh.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLopHoc));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelHeader = new Guna.UI2.WinForms.Guna2Panel();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2Button();
             this.picHome = new System.Windows.Forms.PictureBox();
@@ -123,7 +130,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.btnTimKiem.FillColor = System.Drawing.Color.LightPink;
             this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-            this.btnTimKiem.Location = new System.Drawing.Point(1280, 26);
+            this.btnTimKiem.Location = new System.Drawing.Point(1110, 15);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(204, 59);
             this.btnTimKiem.TabIndex = 27;
@@ -133,12 +140,13 @@ namespace QuanLyTrungTamTiengAnh.Forms
             // 
             this.picHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picHome.Image = ((System.Drawing.Image)(resources.GetObject("picHome.Image")));
-            this.picHome.Location = new System.Drawing.Point(1589, 12);
+            this.picHome.Location = new System.Drawing.Point(1378, 12);
             this.picHome.Name = "picHome";
             this.picHome.Size = new System.Drawing.Size(211, 78);
             this.picHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picHome.TabIndex = 26;
             this.picHome.TabStop = false;
+            this.picHome.Click += new System.EventHandler(this.picHome_Click);
             // 
             // guna2TextBox1
             // 
@@ -152,8 +160,8 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(900, 23);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.guna2TextBox1.Location = new System.Drawing.Point(726, 15);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(6);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PlaceholderText = "Tìm kiếm lớp học...";
             this.guna2TextBox1.SelectedText = "";
@@ -168,7 +176,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.label1.Location = new System.Drawing.Point(13, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(409, 59);
+            this.label1.Size = new System.Drawing.Size(314, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "QUẢN LÝ LỚP HỌC";
             // 
@@ -195,7 +203,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
             this.label6.Location = new System.Drawing.Point(37, 216);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(377, 37);
+            this.label6.Size = new System.Drawing.Size(281, 29);
             this.label6.TabIndex = 6;
             this.label6.Text = "DANH SÁCH LỚP HỌC";
             // 
@@ -231,7 +239,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(111, 22);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(258, 31);
+            this.label4.Size = new System.Drawing.Size(194, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Lớp sắp khai giảng";
             // 
@@ -267,7 +275,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(172, 22);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(174, 31);
+            this.label5.Size = new System.Drawing.Size(130, 25);
             this.label5.TabIndex = 3;
             this.label5.Text = "Lớp kết thúc";
             // 
@@ -303,7 +311,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(151, 22);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(189, 31);
+            this.label3.Size = new System.Drawing.Size(143, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "Lớp đang học";
             // 
@@ -339,7 +347,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(172, 22);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 31);
+            this.label2.Size = new System.Drawing.Size(126, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Tổng số lớp";
             // 
@@ -354,17 +362,17 @@ namespace QuanLyTrungTamTiengAnh.Forms
             // 
             // dgvLopHoc
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.dgvLopHoc.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgvLopHoc.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvLopHoc.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvLopHoc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(55)))), ((int)(((byte)(72)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvLopHoc.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvLopHoc.ColumnHeadersHeight = 46;
             this.dgvLopHoc.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colMaLop,
@@ -374,14 +382,14 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.colThoiGianHoc,
             this.colSiSo,
             this.colTrangThai});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvLopHoc.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvLopHoc.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvLopHoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvLopHoc.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvLopHoc.Location = new System.Drawing.Point(0, 0);
@@ -665,7 +673,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label15.ForeColor = System.Drawing.Color.Black;
             this.label15.Location = new System.Drawing.Point(1302, 67);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(114, 31);
+            this.label15.Size = new System.Drawing.Size(93, 25);
             this.label15.TabIndex = 32;
             this.label15.Text = "Ghi chú";
             // 
@@ -677,7 +685,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label14.ForeColor = System.Drawing.Color.Black;
             this.label14.Location = new System.Drawing.Point(639, 141);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(223, 31);
+            this.label14.Size = new System.Drawing.Size(182, 25);
             this.label14.TabIndex = 31;
             this.label14.Text = "Ngày khai giảng";
             // 
@@ -689,7 +697,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label13.ForeColor = System.Drawing.Color.Black;
             this.label13.Location = new System.Drawing.Point(639, 289);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(146, 31);
+            this.label13.Size = new System.Drawing.Size(119, 25);
             this.label13.TabIndex = 30;
             this.label13.Text = "Trạng thái";
             // 
@@ -701,7 +709,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label12.ForeColor = System.Drawing.Color.Black;
             this.label12.Location = new System.Drawing.Point(639, 215);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(159, 31);
+            this.label12.Size = new System.Drawing.Size(131, 25);
             this.label12.TabIndex = 29;
             this.label12.Text = "Sĩ số tối đa";
             // 
@@ -713,7 +721,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label11.ForeColor = System.Drawing.Color.Black;
             this.label11.Location = new System.Drawing.Point(639, 67);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(189, 31);
+            this.label11.Size = new System.Drawing.Size(155, 25);
             this.label11.TabIndex = 28;
             this.label11.Text = "Thời gian học";
             // 
@@ -725,7 +733,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(30, 289);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(137, 31);
+            this.label10.Size = new System.Drawing.Size(112, 25);
             this.label10.TabIndex = 27;
             this.label10.Text = "Giáo viên";
             // 
@@ -737,7 +745,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(30, 215);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(136, 31);
+            this.label9.Size = new System.Drawing.Size(111, 25);
             this.label9.TabIndex = 26;
             this.label9.Text = "Khoá học";
             // 
@@ -749,7 +757,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(30, 141);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(111, 31);
+            this.label8.Size = new System.Drawing.Size(91, 25);
             this.label8.TabIndex = 25;
             this.label8.Text = "Tên lớp";
             // 
@@ -761,7 +769,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(30, 67);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 31);
+            this.label7.Size = new System.Drawing.Size(83, 25);
             this.label7.TabIndex = 24;
             this.label7.Text = "Mã lớp";
             // 
@@ -858,7 +866,7 @@ namespace QuanLyTrungTamTiengAnh.Forms
             // FrmLopHoc
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1824, 1159);
+            this.ClientSize = new System.Drawing.Size(1824, 1050);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);

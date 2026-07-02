@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGiaoVien));
             Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGiaoVien));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -44,7 +44,6 @@
             this.pnlTong = new Guna.UI2.WinForms.Guna2Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2Button();
-            this.picHome = new System.Windows.Forms.PictureBox();
             this.txtTImKiem = new Guna.UI2.WinForms.Guna2TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
@@ -54,24 +53,40 @@
             this.btnLuu = new Guna.UI2.WinForms.Guna2Button();
             this.btnThem = new Guna.UI2.WinForms.Guna2Button();
             this.dgvLopHoc = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.picHome = new System.Windows.Forms.PictureBox();
             this.colMaGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colHoTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cloMonDay = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colChuyenMon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            ((System.ComponentModel.ISupportInitialize)(guna2CirclePictureBox4)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.pnlDaHuy.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
             this.pnlDangHoc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.pnlTong.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(guna2CirclePictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picHome)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLopHoc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picHome)).BeginInit();
             this.SuspendLayout();
+            // 
+            // guna2CirclePictureBox4
+            // 
+            guna2CirclePictureBox4.BackColor = System.Drawing.Color.Transparent;
+            guna2CirclePictureBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            guna2CirclePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox4.Image")));
+            guna2CirclePictureBox4.ImageRotate = 0F;
+            guna2CirclePictureBox4.Location = new System.Drawing.Point(6, 18);
+            guna2CirclePictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
+            guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            guna2CirclePictureBox4.Size = new System.Drawing.Size(75, 80);
+            guna2CirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            guna2CirclePictureBox4.TabIndex = 4;
+            guna2CirclePictureBox4.TabStop = false;
             // 
             // guna2Panel1
             // 
@@ -86,8 +101,9 @@
             this.guna2Panel1.Controls.Add(this.label7);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1824, 316);
+            this.guna2Panel1.Size = new System.Drawing.Size(1368, 253);
             this.guna2Panel1.TabIndex = 5;
             // 
             // label6
@@ -96,9 +112,10 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.label6.Location = new System.Drawing.Point(16, 276);
+            this.label6.Location = new System.Drawing.Point(12, 221);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(399, 37);
+            this.label6.Size = new System.Drawing.Size(295, 29);
             this.label6.TabIndex = 39;
             this.label6.Text = "DANH SÁCH GIÁO VIÊN";
             // 
@@ -108,9 +125,10 @@
             this.pnlDaHuy.Controls.Add(this.guna2CirclePictureBox3);
             this.pnlDaHuy.Controls.Add(this.label5);
             this.pnlDaHuy.FillColor = System.Drawing.Color.White;
-            this.pnlDaHuy.Location = new System.Drawing.Point(1288, 105);
+            this.pnlDaHuy.Location = new System.Drawing.Point(966, 84);
+            this.pnlDaHuy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlDaHuy.Name = "pnlDaHuy";
-            this.pnlDaHuy.Size = new System.Drawing.Size(372, 147);
+            this.pnlDaHuy.Size = new System.Drawing.Size(279, 118);
             this.pnlDaHuy.TabIndex = 38;
             // 
             // guna2CirclePictureBox3
@@ -119,10 +137,11 @@
             this.guna2CirclePictureBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.guna2CirclePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox3.Image")));
             this.guna2CirclePictureBox3.ImageRotate = 0F;
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(8, 22);
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(6, 18);
+            this.guna2CirclePictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
             this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(100, 100);
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(75, 80);
             this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox3.TabIndex = 4;
             this.guna2CirclePictureBox3.TabStop = false;
@@ -132,9 +151,10 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(124, 7);
+            this.label5.Location = new System.Drawing.Point(93, 6);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 31);
+            this.label5.Size = new System.Drawing.Size(86, 25);
             this.label5.TabIndex = 3;
             this.label5.Text = "Đã nghỉ";
             // 
@@ -144,9 +164,10 @@
             this.pnlDangHoc.Controls.Add(this.label2);
             this.pnlDangHoc.Controls.Add(this.guna2CirclePictureBox1);
             this.pnlDangHoc.FillColor = System.Drawing.Color.White;
-            this.pnlDangHoc.Location = new System.Drawing.Point(629, 105);
+            this.pnlDangHoc.Location = new System.Drawing.Point(472, 84);
+            this.pnlDangHoc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlDangHoc.Name = "pnlDangHoc";
-            this.pnlDangHoc.Size = new System.Drawing.Size(372, 147);
+            this.pnlDangHoc.Size = new System.Drawing.Size(279, 118);
             this.pnlDangHoc.TabIndex = 36;
             // 
             // label2
@@ -154,9 +175,10 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(136, 7);
+            this.label2.Location = new System.Drawing.Point(102, 6);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 31);
+            this.label2.Size = new System.Drawing.Size(163, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Đang giảng dạy";
             // 
@@ -166,10 +188,11 @@
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(8, 22);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(6, 18);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(75, 80);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox1.TabIndex = 4;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -180,33 +203,21 @@
             this.pnlTong.Controls.Add(guna2CirclePictureBox4);
             this.pnlTong.Controls.Add(this.label4);
             this.pnlTong.FillColor = System.Drawing.Color.White;
-            this.pnlTong.Location = new System.Drawing.Point(22, 105);
+            this.pnlTong.Location = new System.Drawing.Point(16, 84);
+            this.pnlTong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlTong.Name = "pnlTong";
-            this.pnlTong.Size = new System.Drawing.Size(372, 147);
+            this.pnlTong.Size = new System.Drawing.Size(279, 118);
             this.pnlTong.TabIndex = 35;
-            // 
-            // guna2CirclePictureBox4
-            // 
-            guna2CirclePictureBox4.BackColor = System.Drawing.Color.Transparent;
-            guna2CirclePictureBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            guna2CirclePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox4.Image")));
-            guna2CirclePictureBox4.ImageRotate = 0F;
-            guna2CirclePictureBox4.Location = new System.Drawing.Point(8, 22);
-            guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
-            guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            guna2CirclePictureBox4.Size = new System.Drawing.Size(100, 100);
-            guna2CirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            guna2CirclePictureBox4.TabIndex = 4;
-            guna2CirclePictureBox4.TabStop = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(111, 7);
+            this.label4.Location = new System.Drawing.Point(83, 6);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(205, 31);
+            this.label4.Size = new System.Drawing.Size(155, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Tổng giáo viên";
             // 
@@ -220,23 +231,12 @@
             this.btnTimKiem.FillColor = System.Drawing.Color.LightBlue;
             this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnTimKiem.Location = new System.Drawing.Point(1280, 26);
+            this.btnTimKiem.Location = new System.Drawing.Point(882, 22);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(204, 59);
+            this.btnTimKiem.Size = new System.Drawing.Size(195, 47);
             this.btnTimKiem.TabIndex = 33;
             this.btnTimKiem.Text = "🔎Tìm kiếm";
-            // 
-            // picHome
-            // 
-            this.picHome.BackColor = System.Drawing.Color.Transparent;
-            this.picHome.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picHome.Image = ((System.Drawing.Image)(resources.GetObject("picHome.Image")));
-            this.picHome.Location = new System.Drawing.Point(1589, 12);
-            this.picHome.Name = "picHome";
-            this.picHome.Size = new System.Drawing.Size(211, 78);
-            this.picHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picHome.TabIndex = 32;
-            this.picHome.TabStop = false;
             // 
             // txtTImKiem
             // 
@@ -250,22 +250,24 @@
             this.txtTImKiem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTImKiem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTImKiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTImKiem.Location = new System.Drawing.Point(900, 23);
-            this.txtTImKiem.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtTImKiem.Location = new System.Drawing.Point(598, 22);
+            this.txtTImKiem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTImKiem.Name = "txtTImKiem";
             this.txtTImKiem.PlaceholderText = "Tìm kiếm giáo viên...";
             this.txtTImKiem.SelectedText = "";
-            this.txtTImKiem.Size = new System.Drawing.Size(371, 62);
+            this.txtTImKiem.Size = new System.Drawing.Size(278, 50);
             this.txtTImKiem.TabIndex = 31;
+            this.txtTImKiem.TextChanged += new System.EventHandler(this.txtTImKiem_TextChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.label7.Location = new System.Drawing.Point(13, 13);
+            this.label7.Location = new System.Drawing.Point(10, 10);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(443, 59);
+            this.label7.Size = new System.Drawing.Size(337, 45);
             this.label7.TabIndex = 2;
             this.label7.Text = "QUẢN LÝ GIÁO VIÊN";
             // 
@@ -278,9 +280,10 @@
             this.guna2Panel2.Controls.Add(this.btnLuu);
             this.guna2Panel2.Controls.Add(this.btnThem);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 1025);
+            this.guna2Panel2.Location = new System.Drawing.Point(0, 733);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1824, 134);
+            this.guna2Panel2.Size = new System.Drawing.Size(1368, 107);
             this.guna2Panel2.TabIndex = 6;
             // 
             // btnHuy
@@ -294,9 +297,10 @@
             this.btnHuy.FillColor = System.Drawing.Color.Pink;
             this.btnHuy.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-            this.btnHuy.Location = new System.Drawing.Point(1303, 45);
+            this.btnHuy.Location = new System.Drawing.Point(977, 36);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(204, 45);
+            this.btnHuy.Size = new System.Drawing.Size(153, 36);
             this.btnHuy.TabIndex = 47;
             this.btnHuy.Text = "🔄 Huỷ";
             // 
@@ -311,9 +315,10 @@
             this.btnXoa.FillColor = System.Drawing.Color.Pink;
             this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-            this.btnXoa.Location = new System.Drawing.Point(1050, 45);
+            this.btnXoa.Location = new System.Drawing.Point(788, 36);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(204, 45);
+            this.btnXoa.Size = new System.Drawing.Size(153, 36);
             this.btnXoa.TabIndex = 48;
             this.btnXoa.Text = "❌ Xóa";
             // 
@@ -328,9 +333,10 @@
             this.btnSua.FillColor = System.Drawing.Color.Pink;
             this.btnSua.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-            this.btnSua.Location = new System.Drawing.Point(797, 45);
+            this.btnSua.Location = new System.Drawing.Point(598, 36);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(204, 45);
+            this.btnSua.Size = new System.Drawing.Size(153, 36);
             this.btnSua.TabIndex = 46;
             this.btnSua.Text = "✏️ Sửa";
             // 
@@ -345,9 +351,10 @@
             this.btnLuu.FillColor = System.Drawing.Color.Pink;
             this.btnLuu.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-            this.btnLuu.Location = new System.Drawing.Point(544, 45);
+            this.btnLuu.Location = new System.Drawing.Point(408, 36);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(204, 45);
+            this.btnLuu.Size = new System.Drawing.Size(153, 36);
             this.btnLuu.TabIndex = 45;
             this.btnLuu.Text = "💾 Lưu";
             // 
@@ -362,9 +369,10 @@
             this.btnThem.FillColor = System.Drawing.Color.Pink;
             this.btnThem.Font = new System.Drawing.Font("Segoe UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(24)))), ((int)(((byte)(91)))));
-            this.btnThem.Location = new System.Drawing.Point(291, 45);
+            this.btnThem.Location = new System.Drawing.Point(218, 36);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(204, 45);
+            this.btnThem.Size = new System.Drawing.Size(153, 36);
             this.btnThem.TabIndex = 44;
             this.btnThem.Text = "+ Thêm mới";
             // 
@@ -387,7 +395,7 @@
             this.colHoTen,
             this.colSDT,
             this.colEmail,
-            this.cloMonDay,
+            this.colChuyenMon,
             this.colTrangThai});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
@@ -399,12 +407,13 @@
             this.dgvLopHoc.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvLopHoc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvLopHoc.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvLopHoc.Location = new System.Drawing.Point(0, 316);
+            this.dgvLopHoc.Location = new System.Drawing.Point(0, 253);
+            this.dgvLopHoc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvLopHoc.Name = "dgvLopHoc";
             this.dgvLopHoc.RowHeadersVisible = false;
             this.dgvLopHoc.RowHeadersWidth = 82;
             this.dgvLopHoc.RowTemplate.Height = 33;
-            this.dgvLopHoc.Size = new System.Drawing.Size(1824, 709);
+            this.dgvLopHoc.Size = new System.Drawing.Size(1368, 480);
             this.dgvLopHoc.TabIndex = 7;
             this.dgvLopHoc.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvLopHoc.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
@@ -415,6 +424,20 @@
             this.dgvLopHoc.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dgvLopHoc.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvLopHoc.ThemeStyle.RowsStyle.Height = 33;
+            this.dgvLopHoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLopHoc_CellContentClick);
+            // 
+            // picHome
+            // 
+            this.picHome.BackColor = System.Drawing.Color.Transparent;
+            this.picHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picHome.Image = ((System.Drawing.Image)(resources.GetObject("picHome.Image")));
+            this.picHome.Location = new System.Drawing.Point(1192, 10);
+            this.picHome.Margin = new System.Windows.Forms.Padding(2);
+            this.picHome.Name = "picHome";
+            this.picHome.Size = new System.Drawing.Size(158, 62);
+            this.picHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picHome.TabIndex = 32;
+            this.picHome.TabStop = false;
             // 
             // colMaGV
             // 
@@ -440,11 +463,11 @@
             this.colEmail.MinimumWidth = 10;
             this.colEmail.Name = "colEmail";
             // 
-            // cloMonDay
+            // colChuyenMon
             // 
-            this.cloMonDay.HeaderText = "Môn Dạy";
-            this.cloMonDay.MinimumWidth = 10;
-            this.cloMonDay.Name = "cloMonDay";
+            this.colChuyenMon.HeaderText = "Chuyên môn";
+            this.colChuyenMon.MinimumWidth = 10;
+            this.colChuyenMon.Name = "colChuyenMon";
             // 
             // colTrangThai
             // 
@@ -454,15 +477,15 @@
             // 
             // FrmGiaoVien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1824, 1159);
+            this.ClientSize = new System.Drawing.Size(1368, 840);
             this.Controls.Add(this.dgvLopHoc);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmGiaoVien";
             this.Text = "Quản lí giáo viên";
+            ((System.ComponentModel.ISupportInitialize)(guna2CirclePictureBox4)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.pnlDaHuy.ResumeLayout(false);
@@ -473,10 +496,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.pnlTong.ResumeLayout(false);
             this.pnlTong.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(guna2CirclePictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picHome)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLopHoc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picHome)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -494,7 +516,6 @@
         private Guna.UI2.WinForms.Guna2Panel pnlTong;
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2Button btnTimKiem;
-        private System.Windows.Forms.PictureBox picHome;
         private Guna.UI2.WinForms.Guna2TextBox txtTImKiem;
         private System.Windows.Forms.Label label7;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
@@ -504,11 +525,12 @@
         private Guna.UI2.WinForms.Guna2Button btnLuu;
         private Guna.UI2.WinForms.Guna2Button btnThem;
         private Guna.UI2.WinForms.Guna2DataGridView dgvLopHoc;
+        private System.Windows.Forms.PictureBox picHome;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMaGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn colHoTen;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSDT;
         private System.Windows.Forms.DataGridViewTextBoxColumn colEmail;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cloMonDay;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colChuyenMon;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTrangThai;
     }
 }

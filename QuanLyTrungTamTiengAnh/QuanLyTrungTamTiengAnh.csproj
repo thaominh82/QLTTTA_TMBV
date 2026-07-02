@@ -61,6 +61,7 @@
     <Compile Include="DAL\Classes\GiaoVienDAL.cs" />
     <Compile Include="DAL\Classes\HocVienDAL.cs" />
     <Compile Include="DAL\Classes\KhoaHocDAL.cs" />
+    <Compile Include="DAL\Classes\LopHoc.cs" />
     <Compile Include="DAL\Classes\TaiKhoanDAL.cs" />
     <Compile Include="DAL\Interfaces\IDangKyHocDAL.cs" />
     <Compile Include="DAL\Interfaces\IGiaoVienDAL.cs" />

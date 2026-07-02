@@ -13,30 +13,41 @@ namespace QuanLyTrungTamTiengAnhTM_BV.GUI.Forms
 
         private void frmDangNhap_Load(object sender, EventArgs e)
         {
-            // Code khởi tạo khi form chạy (nếu có)
+            // Code khởi tạo khi form chạy
         }
 
-        // Sự kiện này đã được liên kết với btnDangNhap trong Designer
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            // Tài khoản Admin cố định
-            string adminUser = "admin";
-            string adminPass = "123456";
+            string user = txtUsername.Text.Trim();
+            string pass = txtPassword.Text.Trim();
 
-            // Sử dụng tên đúng: txtUsername và txtPassword
-            if (txtUsername.Text == adminUser && txtPassword.Text == adminPass)
+            // Kiểm tra các tài khoản hợp lệ
+            bool isAuthenticated = false;
+
+            if ((user == "admin" && pass == "123456") ||
+                (user == "Thảo Minh" && pass == "080206") ||
+                (user == "Bảo Vy" && pass == "102"))
             {
-                MessageBox.Show("Chào mừng Admin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                isAuthenticated = true;
+            }
 
-                // Mở Form Main
+            if (isAuthenticated)
+            {
+                // Nhảy thẳng tới FrmMain không qua thông báo
                 FrmMain frmMain = new FrmMain();
                 this.Hide();
                 frmMain.Show();
             }
             else
             {
+                // Giữ lại thông báo lỗi nếu nhập sai
                 MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

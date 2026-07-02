@@ -1,7 +1,8 @@
-﻿-- 1. Tạo Database
+﻿
+-- 1. Tạo Database
 IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'QuanLyTrungTamTiengAnh')
 BEGIN
-    CREATE DATABASE QuanLyTrungTamTiengAnh
+    CREATE DATABASE QuanLyTrungTamTiengAnh
 END
 GO
 
@@ -14,24 +15,26 @@ IF OBJECT_ID('dbo.HocVien', 'U') IS NOT NULL DROP TABLE dbo.HocVien;
 IF OBJECT_ID('dbo.TaiKhoan', 'U') IS NOT NULL DROP TABLE dbo.TaiKhoan;
 IF OBJECT_ID('dbo.GiaoVien', 'U') IS NOT NULL DROP TABLE dbo.GiaoVien;
 IF OBJECT_ID('dbo.KhoaHoc', 'U') IS NOT NULL DROP TABLE dbo.KhoaHoc;
+
+GO
 GO
 
 -- 3. Tạo các bảng
 CREATE TABLE TaiKhoan (
-    TenDangNhap VARCHAR(50) PRIMARY KEY,
-    MatKhau VARCHAR(100) NOT NULL,
-    Quyen NVARCHAR(20) NOT NULL DEFAULT N'User'
+    TenDangNhap VARCHAR(50) PRIMARY KEY,
+    MatKhau VARCHAR(100) NOT NULL,
+    Quyen NVARCHAR(20) NOT NULL DEFAULT N'User'
 )
 
 CREATE TABLE HocVien (
-    MaHV VARCHAR(10) PRIMARY KEY,
-    HoTen NVARCHAR(100) NOT NULL,
-    NgaySinh DATE NOT NULL,
-    GioiTinh NVARCHAR(10) CHECK (GioiTinh IN (N'Nam', N'Nữ')),
-    SDT VARCHAR(15) UNIQUE,
-    Email VARCHAR(100) UNIQUE,
-    DiaChi NVARCHAR(200),
-    TrangThai NVARCHAR(50) DEFAULT N'Đang học'
+    MaHV VARCHAR(10) PRIMARY KEY,
+    HoTen NVARCHAR(100) NOT NULL,
+    NgaySinh DATE NOT NULL,
+    GioiTinh NVARCHAR(10) CHECK (GioiTinh IN (N'Nam', N'Nữ')),
+    SDT VARCHAR(15) UNIQUE,
+    Email VARCHAR(100) UNIQUE,
+    DiaChi NVARCHAR(200),
+    TrangThai NVARCHAR(50) DEFAULT N'Đang học'
 )
 
 CREATE TABLE GiaoVien (
@@ -40,26 +43,27 @@ CREATE TABLE GiaoVien (
     SDT VARCHAR(15) UNIQUE,
     Email VARCHAR(100) UNIQUE,
     ChuyenMon NVARCHAR(100),
-    TrangThai NVARCHAR(50) DEFAULT N'Đang giảng dạy' -- Đã bổ sung
+    TrangThai NVARCHAR(50) DEFAULT N'Đang giảng dạy'
 )
+GO
 
 CREATE TABLE KhoaHoc (
-    MaKH VARCHAR(10) PRIMARY KEY,
-    TenKH NVARCHAR(100) NOT NULL,
-    TrinhDo NVARCHAR(50),
-    HocPhi DECIMAL(18,2),
-    ThoiLuong INT,
-    MoTa NVARCHAR(255)
+    MaKH VARCHAR(10) PRIMARY KEY,
+    TenKH NVARCHAR(100) NOT NULL,
+    TrinhDo NVARCHAR(50),
+    HocPhi DECIMAL(18,2),
+    ThoiLuong INT,
+    MoTa NVARCHAR(255)
 )
 
 CREATE TABLE DangKyHoc (
-    MaDangKy INT IDENTITY(1,1) PRIMARY KEY,
-    MaHV VARCHAR(10) NOT NULL,
-    MaKH VARCHAR(10) NOT NULL,
-    NgayDangKy DATE NOT NULL DEFAULT GETDATE(),
-    CONSTRAINT FK_DangKyHoc_HocVien FOREIGN KEY (MaHV) REFERENCES HocVien(MaHV),
-    CONSTRAINT FK_DangKyHoc_KhoaHoc FOREIGN KEY (MaKH) REFERENCES KhoaHoc(MaKH),
-    CONSTRAINT UQ_DangKyHoc UNIQUE(MaHV, MaKH)
+    MaDangKy INT IDENTITY(1,1) PRIMARY KEY,
+    MaHV VARCHAR(10) NOT NULL,
+    MaKH VARCHAR(10) NOT NULL,
+    NgayDangKy DATE NOT NULL DEFAULT GETDATE(),
+    CONSTRAINT FK_DangKyHoc_HocVien FOREIGN KEY (MaHV) REFERENCES HocVien(MaHV),
+    CONSTRAINT FK_DangKyHoc_KhoaHoc FOREIGN KEY (MaKH) REFERENCES KhoaHoc(MaKH),
+    CONSTRAINT UQ_DangKyHoc UNIQUE(MaHV, MaKH)
 )
 GO
 
@@ -84,11 +88,10 @@ INSERT INTO HocVien (MaHV, HoTen, NgaySinh, GioiTinh, SDT, Email, DiaChi, TrangT
 ('HV009', N'Vũ Văn Ích', '2004-09-20', N'Nam', '0901000009', 'ich.vu@email.com', N'Đà Lạt', N'Đang học'),
 ('HV010', N'Lý Thị Kiều', '2005-10-25', N'Nữ', '0901000010', 'kieu.ly@email.com', N'Huế', N'Đang học');
 
-INSERT INTO GiaoVien (MaGV, HoTen, SDT, Email, ChuyenMon, TrangThai) VALUES
+INSERT INTO GiaoVien (MaGV, HoTen, SDT, Email, ChuyenMon, TrangThai) VALUES 
 ('GV001', N'Trần Minh Tâm', '0912000001', 'tam.tran@gmail.com', N'Tiếng Anh cơ bản', N'Đang giảng dạy'),
 ('GV002', N'Lê Thị Thu Thảo', '0912000002', 'thao.le@gmail.com', N'Luyện thi TOEIC', N'Đang giảng dạy'),
-('GV003', N'Phạm Văn Hùng', '0912000003', 'hung.pham@gmail.com', N'Luyện thi IELTS', N'Đang giảng dạy'),
-('GV004', N'Nguyễn Thị Mai', '0912000004', 'mai.nguyen@gmail.com', N'Tiếng Anh giao tiếp', N'Nghỉ phép');
+('GV003', N'Phạm Văn Hùng', '0912000003', 'hung.pham@gmail.com', N'Luyện thi IELTS', N'Đang giảng dạy');
 
 INSERT INTO TaiKhoan (TenDangNhap, MatKhau, Quyen) VALUES
 ('admin', '123456', N'Admin'),
@@ -102,3 +105,7 @@ INSERT INTO DangKyHoc (MaHV, MaKH, NgayDangKy) VALUES
 ('HV007', 'KH005', GETDATE()),
 ('HV010', 'KH006', GETDATE());
 GO
+
+
+
+SELECT * FROM GiaoVien

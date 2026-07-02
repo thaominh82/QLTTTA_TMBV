@@ -71,7 +71,7 @@
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(58, 299);
             this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(154, 18);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(224, 27);
             this.guna2HtmlLabel4.TabIndex = 7;
             this.guna2HtmlLabel4.Text = "Please sign in to continue";
             // 
@@ -97,7 +97,7 @@
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(86, 280);
             this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(98, 18);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(141, 27);
             this.guna2HtmlLabel3.TabIndex = 6;
             this.guna2HtmlLabel3.Text = "Welcome Back!";
             // 
@@ -136,7 +136,7 @@
             this.txtUsername.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtUsername.IconLeft")));
             this.txtUsername.IconLeftSize = new System.Drawing.Size(25, 25);
             this.txtUsername.Location = new System.Drawing.Point(6, 128);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PlaceholderText = "Usename";
             this.txtUsername.SelectedText = "";
@@ -162,7 +162,7 @@
             this.txtPassword.IconRight = ((System.Drawing.Image)(resources.GetObject("txtPassword.IconRight")));
             this.txtPassword.IconRightSize = new System.Drawing.Size(25, 25);
             this.txtPassword.Location = new System.Drawing.Point(6, 173);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.PlaceholderText = "Password";
@@ -179,7 +179,7 @@
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(230, 16);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(150, 34);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(222, 50);
             this.guna2HtmlLabel1.TabIndex = 3;
             this.guna2HtmlLabel1.Text = "ĐĂNG NHẬP";
             // 
@@ -191,7 +191,7 @@
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(210, 53);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(185, 18);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(276, 27);
             this.guna2HtmlLabel2.TabIndex = 4;
             this.guna2HtmlLabel2.Text = "Quản Lý Trung Tâm Tiếng Anh";
             // 
@@ -230,6 +230,7 @@
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2PictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Name = "FrmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

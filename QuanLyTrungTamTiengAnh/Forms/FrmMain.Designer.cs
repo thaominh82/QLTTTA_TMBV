@@ -324,7 +324,7 @@
             this.comboBox1.Location = new System.Drawing.Point(235, 66);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(156, 23);
+            this.comboBox1.Size = new System.Drawing.Size(156, 33);
             this.comboBox1.TabIndex = 28;
             this.comboBox1.Text = "Hiển thị tất cả";
             // 
@@ -353,7 +353,7 @@
             this.label13.Location = new System.Drawing.Point(4, 26);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(194, 19);
+            this.label13.Size = new System.Drawing.Size(276, 28);
             this.label13.TabIndex = 14;
             this.label13.Text = "🔔 THÔNG BÁO MỚI NHẤT";
             // 
@@ -365,7 +365,7 @@
             this.label9.Location = new System.Drawing.Point(22, 390);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(123, 30);
+            this.label9.Size = new System.Drawing.Size(189, 50);
             this.label9.TabIndex = 26;
             this.label9.Text = "Lớp Toeic mã T02 vừa \r\nđược xếp lịch.";
             // 
@@ -426,7 +426,7 @@
             this.label12.Location = new System.Drawing.Point(22, 131);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(150, 30);
+            this.label12.Size = new System.Drawing.Size(228, 50);
             this.label12.TabIndex = 17;
             this.label12.Text = "Học viên Nguyễn Văn A \r\nvừa đăng ký khóa học mới.";
             // 
@@ -438,7 +438,7 @@
             this.label10.Location = new System.Drawing.Point(18, 302);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(150, 30);
+            this.label10.Size = new System.Drawing.Size(228, 50);
             this.label10.TabIndex = 23;
             this.label10.Text = "Học viên Trần Thị Hương\r\nvừa đăng ký khóa học mới.";
             // 
@@ -516,7 +516,7 @@
             this.label11.Location = new System.Drawing.Point(22, 211);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(133, 30);
+            this.label11.Size = new System.Drawing.Size(200, 50);
             this.label11.TabIndex = 20;
             this.label11.Text = "Học viên Trần Thị B vừa \r\nđóng học phí.\r\n";
             // 
@@ -556,7 +556,7 @@
             this.label4.Location = new System.Drawing.Point(34, 11);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 19);
+            this.label4.Size = new System.Drawing.Size(107, 30);
             this.label4.TabIndex = 9;
             this.label4.Text = "Tạm dừng";
             // 
@@ -581,7 +581,7 @@
             this.label3.Location = new System.Drawing.Point(34, 11);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 19);
+            this.label3.Size = new System.Drawing.Size(123, 30);
             this.label3.TabIndex = 9;
             this.label3.Text = "Hoàn thành";
             // 
@@ -606,7 +606,7 @@
             this.label2.Location = new System.Drawing.Point(34, 11);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 19);
+            this.label2.Size = new System.Drawing.Size(103, 30);
             this.label2.TabIndex = 9;
             this.label2.Text = "Đang học";
             // 
@@ -631,7 +631,7 @@
             this.lblTitleTongHocVien.Location = new System.Drawing.Point(34, 11);
             this.lblTitleTongHocVien.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitleTongHocVien.Name = "lblTitleTongHocVien";
-            this.lblTitleTongHocVien.Size = new System.Drawing.Size(95, 19);
+            this.lblTitleTongHocVien.Size = new System.Drawing.Size(144, 30);
             this.lblTitleTongHocVien.TabIndex = 9;
             this.lblTitleTongHocVien.Text = "Tổng học viên";
             // 
@@ -655,7 +655,7 @@
             this.label1.Location = new System.Drawing.Point(0, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 30);
+            this.label1.Size = new System.Drawing.Size(331, 45);
             this.label1.TabIndex = 2;
             this.label1.Text = "Xin chào, Admin!👋";
             // 
@@ -667,7 +667,7 @@
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(3, 61);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(227, 18);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(334, 27);
             this.guna2HtmlLabel2.TabIndex = 5;
             this.guna2HtmlLabel2.Text = "Chúc bạn một ngày làm việc hiệu quả.";
             // 
@@ -679,6 +679,7 @@
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMain";
             this.Text = "Trang chủ";
             this.Load += new System.EventHandler(this.FrmMain_Load);
